@@ -1,46 +1,36 @@
 ---
-title: 'INTOXICOM Workshop Report: Shedding the light on unknown chemical substances'
+title: 'INTOXICOM Workshop Report: FAIRification of Toxicological Research Output: Leveraging ELIXIR Resources'
 title_short: 'INTOXIOM #1: unknown chemical substances'
 tags:
   - toxicology
-  - PubChem
-  - unknown chemical substances
+  - ELIXIR Europe
 authors:
   - name: Marvin Martens
+    affiliation: 1
+  - name: Egon Willighagen
     affiliation: 1
 affiliations:
   - name: Dept of Bioinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, Maastricht, NL
     index: 1
-date: 7 November 2022
+date: 29 May 2024
 cito-bibliography: paper.bib
 event: INTOXICOM
 biohackathon_name: "INTOXICOM Workshops"
 biohackathon_url:   "[https://biohackathon-europe.org/](https://elixir-europe.org/internal-projects/commissioned-services/integrating-toxicology-community)"
-biohackathon_location: "Europe, 2024-2025"
+biohackathon_location: "Utrecht, 28-29 May 2024"
 group: Workshop 1
-# URL to project git repo --- should contain the actual paper.md:
-git_url: https://github.com/biohackrxiv/publication-template
-# This is the short authors description that is used at the
-# bottom of the generated paper (typically the first two authors):
+git_url: https://github.com/BiGCAT-UM/INTOXICOM_Workshop_1
 authors_short: Martens \emph{et al.}
 ---
 
-
 # Introduction
 
-As part of the INTOXICOM Implementation Study for the ELIXIR Toxicology Community a series of workshops is organized. Here, we here report on the Xth workshop...
+This document reports on the first INTOXICOM Implementation Study workshop series, held in Utrecht on May 28 and 29 2024.
 
-# Formatting
+16 (day 1) people met in person in Utrecht, with two people giving an online
+presentaiton.
 
-This document use Markdown and you can look at [this tutorial](https://www.markdowntutorial.com/).
-
-## Subsection level 2
-
-Please keep sections to a maximum of only two levels.
-
-## Tables and figures
-
-Tables can be added in the following way, though alternatives are possible:
+# Presentations
 
 Table: Note that table caption is automatically numbered and should be
 given before the table itself.
@@ -52,7 +42,6 @@ given before the table itself.
 
 A figure is added with:
 
-![Caption for BioHackrXiv logo figure](./biohackrxiv.png)
 
 # Other main section on your manuscript level 1
 
