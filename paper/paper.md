@@ -124,6 +124,10 @@ workshop.
 
 ...
 
+## Funding
+
+This workshop was funded by the ELIXIR Europe INTOXICOM grant.
+
 ## References
 
 
