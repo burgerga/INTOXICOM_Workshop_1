@@ -10,7 +10,7 @@ authors:
   - name: Egon Willighagen
     affiliation: 1
 affiliations:
-  - name: Dept of Bioinformatics - BiGCaT, NUTRIM, FHML, Maastricht University, Maastricht, NL
+  - name: Dept of Translational Genomics, NUTRIM, FHML, Maastricht University, Maastricht, NL
     index: 1
 date: 29 May 2024
 cito-bibliography: paper.bib
