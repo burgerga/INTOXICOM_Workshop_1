@@ -152,8 +152,8 @@ Data Points (FDPs) [@citesAsRecommendedReading:Silva2022FAIR]. Community
 standards like IUCLID6 and the Toxicology Process Ontology (TXPO) were mentiond.
 Other toxicology projects adopted solutions including repositories like the
 EMBL-EBI BioStudies, OpenAIRE, and Zenodo. The role of global unique identifiers
-comes up, including the Nano-InChI [XXXX] and the European Registry of Materials
-(ERM) identifier [XXXX] as metadata for datasets to indicate what chemicals are
+comes up, including the Nano-InChI [@citesAsPotentialSolution:Lynch2020] and the European Registry of Materials
+(ERM) identifier [@citesAsPotentialSolution:VanRijn2022] as metadata for datasets to indicate what chemicals are
 studied in those datasets.
 
 Challenges the toxicology community faces include incomplete interoperabilty,
