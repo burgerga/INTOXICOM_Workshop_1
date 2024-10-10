@@ -50,7 +50,7 @@ The second part would focus on Adverse Outcome Pathways (AOPs) in the AOP-Wiki.
 The workshop will explore the FAIRification of AOPs and AOP-Wiki, making AOPs
 findable in more ways, and continues on the efforts of the CIAO project
 ([ciao-covid.net](https://ciao-covid.net/)) that assesses the FAIRness of
-AOPs [@citesForInformation:CIAO2022]. The output of this part would be the FAIR
+AOPs [@citesForInformation:Carusi2023]. The output of this part would be the FAIR
 Implementation Profile for AOPs.
 
 The planned delvierables for the workshop
