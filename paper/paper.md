@@ -25,7 +25,10 @@ authors_short: Martens \emph{et al.}
 
 # Introduction
 
-This document reports on the first INTOXICOM Implementation Study workshop series [@citesAsEvidence:INTOXICOM],
+This document reports on the first workshop held by the ELIXIR
+Toxicology Community [@citesAsRecommendedReading:Martens2023ELIXIR]
+as part of the
+INTOXICOM Implementation Study workshop series [@citesAsEvidence:INTOXICOM],
 held in Utrecht on May 28 and 29 2024 [@citesAsEvidence:Aanmelder]. The topic of
 the meeting was the FAIRification of toxicological research output, including how
 ELIXIR resources may be able to help here. The meeting was organized by a team
@@ -48,8 +51,10 @@ The workshop will explore the FAIRification of AOPs and AOP-Wiki, making AOPs
 findable in more ways, and continues on the efforts of the CIAO project
 ([ciao-covid.net](https://ciao-covid.net/)) that assesses the FAIRness of
 AOPs [@citesForInformation:CIAO2022]. The output of this part would be the FAIR
-Implementation Profile for AOPs. The planned delvierables for the workshop
-include: 1. this report; 2. a FAIR Implementation Profile for AOPS; and, 3.
+Implementation Profile for AOPs.
+
+The planned delvierables for the workshop
+include: 1. this report; 2. a FAIR Implementation Profile for AOPs; and, 3.
 a proposed standard on how to use compact identifiers on project reports.
 
 This report will describe the program of the actually held workshop, link to
@@ -58,8 +63,14 @@ from that.
 
 # The workshop
 
-The workshop was attended in person in Utrecht by 16 people on the first day,
+The workshop was attended in person in Utrecht (The Netherlands) by 16 people on the first day,
 with two people giving an online presentation, and X people on the second day.
+Participants came from various universities (Karolinska Leiden, Maastricht, ...,
+Leibniz, and Birmingham),
+research institutes (TNO, EU-JRC, RIVM), regulators, and various ELIXIR Platforms.
+Ongoing toxicology projects that people are involved in included VHP4Safety,
+PARC, and PINK. Participants came from The Netherlands, Italy, UK, Germany,
+Czechia, and Sweden.
 
 ## Presentations
 
@@ -73,21 +84,26 @@ Table: Presentations at the workshop.
 | -------- | -------- |
 | David Lloyd | ELIXIR Introduction |
 | Marvin Martens | ELIXIR Toxicology Community |
-| Iseult Lynch | FAIR data to support Chemical Risk Assessment & Regulation 
-– the PARC approach for toxicological data |
+| Iseult Lynch | FAIR data to support Chemical Risk |
+|              | Assessment & Regulation – the PARC |
+|              | approach for toxicological data |
 | Rob Stierum | Compact IDs - identified challenges |
-| Egon Willighagen | Introduction to hands-on session data FAIRification |
+| Egon Willighagen | Introduction to hands-on session data |
+|                  | FAIRification |
 | Penny Nymark | What is an Adverse Outcome Pathway? |
-| Clemens Wittwehr | Why Adverse Outcome Pathways need to be FAIR |
+| Clemens Wittwehr | Why Adverse Outcome Pathways need |
+|                  | to be FAIR |
 | Marvin Martens | FAIR AOPs - identified challenges |
 | Ulrike Wittig | ELIXIR Data Platform |
 | Marvin Martens | FAIRsharing Toxicology Collection |
 | Iseult Lynch | Welcome to FIP.27.W.1 |
-| Penny Nymark | Data vs. metadata in an Adverse Outcome Pathway |
+| Penny Nymark | Data vs. metadata in an Adverse Outcome |
+|              | Pathway |
 
 The meeting covered a few topics on the interface between ELIXIR and the
 toxicology community. The first topic was generally FAIRification of research
-output [XXXX]. A main aspect of this part of the workshop was around making
+output (an guiding defintiion is found in [@citesForInformation:Houweling2023]).
+A main aspect of this part of the workshop was around making
 data FAIR, ambitions, and practical challenges. This part included a workshop
 discussion and writing a guidance document on making project reports more
 interoperable with compact identifiers.
@@ -116,9 +132,62 @@ outside that community, with minimal expectations and best practices.
 This section gives an overview of the main outcomes of the sessions of this
 workshop.
 
-# Discussion
+## FAIR standards and challenges
+
+One of the outcomes of the workshop comes from the discussions. Where ELIXIR
+already provides many solution for FAIR, adoption in projects and communities
+is not trivial. PARC is adopting various solutions, invluding FIPs and FAIR
+Data Points (FDPs) [@citesAsRecommendedReading:Silva2022FAIR]. Community
+standards like IUCLID6 and the Toxicology Process Ontology (TXPO) were mentiond.
+Other toxicology projects adopted solutions including repositories like the
+EMBL-EBI BioStudies, OpenAIRE, and Zenodo. The role of global unique identifiers
+comes up, including the Nano-InChI [XXXX] and the European Registry of Materials
+(ERM) identifier [XXXX] as metadata for datasets to indicate what chemicals are
+studied in those datasets.
+
+Challenges the toxicology community faces include incomplete interoperabilty,
+lack of adoption of unique identifers, and data that cannot be reused because
+it does not meet community standards. Three specific challenges were identified
+that need following up: the first is the BioStudies web interface is not
+sufficiently interoperable, works with plain text, and does not provide an
+easy (machine) interface for annotation with identifiers and ontologies.
+
+The second challenge specifically listed is the adoption of identifiers in
+toxicology datasets. Better metadata of datasets with those identifiers is
+essential. It could be solved with compact identifiers in descriptions or
+identifiers as keywords. The NanoCommons community made some progress with
+this (), but work is mostly manual.
+
+The third challenge is a general incompleteness of ontologies. Finding ontology
+terms to be used for annotation of research output is non-trivial whle the
+translation of ontology terms to identifiers are key to data consistency and 
+interoperability. As examples of this challenge the ontological annotation of
+biological assays and composite nanoamterials were discussed.
+
+Regarding the community standards, reasons why data cannot be reused include
+scientific aspect as lack of community-accepted standards for testing, which
+should address experimental artifacts like batch affects and interlaboratory
+effects.
+
+## FAIR-ification recipes
 
 ...
+
+## FAIR Implementation profiles
+
+...
+
+
+
+
+# Discussion
+
+The workshop had a lively discussion and resulted in new output that feeds
+back into ELIXIR Toxicology Community (e.g. via this report) and via the
+FIPs, FAIR Cookbook recipes, and other outcomes back into the wider ELIXIR
+and toxicology communities.
+
+Remaining key challenges includes ...
 
 ## Acknowledgements
 
