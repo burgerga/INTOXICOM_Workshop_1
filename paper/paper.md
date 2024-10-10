@@ -6,12 +6,17 @@ tags:
   - ELIXIR Europe
 authors:
   - name: Marvin Martens
+    orcid: 0000-0001-7542-0286
     affiliation: 1
+  - name: Iseult Lynch
+    affiliation: 2
   - name: Egon Willighagen
     affiliation: 1
 affiliations:
   - name: Dept of Translational Genomics, NUTRIM, FHML, Maastricht University, Maastricht, NL
     index: 1
+  - name: University of Birmingham, Birmingham, UK
+    index: 2
 date: 29 May 2024
 cito-bibliography: paper.bib
 event: INTOXICOM
@@ -215,6 +220,9 @@ Remaining key challenges includes ...
 
 ## Funding
 
-This workshop was funded by the ELIXIR Europe INTOXICOM grant.
+This workshop was funded by the ELIXIR Europe INTOXICOM grant. Participants acknowledge 
+funding from PARC (Grant agreement No. 101057014 and UKRI Grant No. 1752317),
+WorldFAIR (Grant agreement No. 101058393 and UKRI Grant No. 1831977 ) and
+PINK (Grant agreement No. 101137809 and UKRI Grant No. 10097944).
 
 ## References
