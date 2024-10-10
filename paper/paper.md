@@ -56,28 +56,65 @@ This report will describe the program of the actually held workshop, link to
 presentations (where possible), and discuss the hands-on work done and results
 from that.
 
-## The workshop
+# The workshop
 
 The workshop was attended in person in Utrecht by 16 people on the first day,
-with two people giving an online presentaiton, and X people on the second day.
+with two people giving an online presentation, and X people on the second day.
 
+## Presentations
 
-# Presentations
+To introduce ELIXIR, the ELIXIR Toxicology Community, the scope of the meeting,
+and the various workshop sessions, several speakers presented their ongoing
+work. Table 1 gives an overview of the presentations.
 
-Table: Note that table caption is automatically numbered and should be
-given before the table itself.
+Table: Presentations at the workshop.
 
-| Header 1 | Header 2 |
+| Speaker | Talk Title  |
 | -------- | -------- |
-| item 1 | item 2 |
-| item 3 | item 4 |
+| David Lloyd | ELIXIR Introduction |
+| Marvin Martens | ELIXIR Toxicology Community |
+| Iseult Lynch | FAIR data to support Chemical Risk Assessment & Regulation 
+– the PARC approach for toxicological data |
+| Rob Stierum | Compact IDs - identified challenges |
+| Egon Willighagen | Introduction to hands-on session data FAIRification |
+| Penny Nymark | What is an Adverse Outcome Pathway? |
+| Clemens Wittwehr | Why Adverse Outcome Pathways need to be FAIR |
+| Marvin Martens | FAIR AOPs - identified challenges |
+| Ulrike Wittig | ELIXIR Data Platform |
+| Marvin Martens | FAIRsharing Toxicology Collection |
+| Iseult Lynch | Welcome to FIP.27.W.1 |
+| Penny Nymark | Data vs. metadata in an Adverse Outcome Pathway |
 
-A figure is added with:
+The meeting covered a few topics on the interface between ELIXIR and the
+toxicology community. The first topic was generally FAIRification of research
+output [XXXX]. A main aspect of this part of the workshop was around making
+data FAIR, ambitions, and practical challenges. This part included a workshop
+discussion and writing a guidance document on making project reports more
+interoperable with compact identifiers.
 
+This part was followed by a hands-on session around FAIRificiation recipes in
+the ELIXIR FAIR Cookbook. To decide on the topics of the recipes, several
+data challenges were identified. Partly, these challenges were collected before the
+workshop in the preparatory webinar.
 
+The first day ended with a third topic, around making adverse outcome pathways
+(AOPs) more FAIR, continuing on earlier work by the CIAO project and feeding
+into the continued development of the AOP-Wiki.
+
+The second day started with session on the ELIXIR Data Platform and the
+FAIRsharing Toxicology Collection. This collection has been an ongoing collaboration
+between the ELIXIR Toxicology Community and the FAIRsharing project, recently
+boosted by a FAIRsharing Community Champion project.
+
+The main focus of the second day was around the topic second hands-on session,
+FAIR Implementation Profiles (FIPs). These FIPs formalize a community partice
+or even standard that guides members of those community, and possible even
+outside that community, with minimal expectations and best practices.
 
 # Results
 
+This section gives an overview of the main outcomes of the sessions of this
+workshop.
 
 # Discussion
 
