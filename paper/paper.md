@@ -125,12 +125,23 @@ boosted by a FAIRsharing Community Champion project.
 The main focus of the second day was around the topic second hands-on session,
 FAIR Implementation Profiles (FIPs). These FIPs formalize a community partice
 or even standard that guides members of those community, and possible even
-outside that community, with minimal expectations and best practices.
+outside that community, with minimal expectations and best practices. There is
+a DSWizard-based tool to create FIPs which has been used by the WorldFAIR
+project for ready-for-modelling datasets for nanoinformatics [@citesForInformation:WFFIP1] and
+for datasets [@citesForInformation:WFFIP2].
 
 # Results
 
 This section gives an overview of the main outcomes of the sessions of this
 workshop.
+
+## Guidance for compact identifier use
+
+One of the goals of the workshop was to promote the use of compact identifiers
+in project reporting. Compact identifiers are short but meaningful references
+to identifiers for entities like proteins, gene, metabolites, nanomaterials.
+A draft guidance document has been under development and is available at
+[https://github.com/egonw/compact-ids-in-reports](https://github.com/egonw/compact-ids-in-reports).
 
 ## FAIR standards and challenges
 
@@ -156,7 +167,8 @@ The second challenge specifically listed is the adoption of identifiers in
 toxicology datasets. Better metadata of datasets with those identifiers is
 essential. It could be solved with compact identifiers in descriptions or
 identifiers as keywords. The NanoCommons community made some progress with
-this (), but work is mostly manual.
+this ([https://nanocommons.github.io/datasets/](https://nanocommons.github.io/datasets/)),
+but work is mostly manual.
 
 The third challenge is a general incompleteness of ontologies. Finding ontology
 terms to be used for annotation of research output is non-trivial whle the
@@ -171,13 +183,16 @@ effects.
 
 ## FAIR-ification recipes
 
-...
+After an introduction to the concepts of the FAIR Cookbook, the workshop
+participants started two Cookbook recipes...
 
 ## FAIR Implementation profiles
 
-...
+For the FAIR Implementation profiles we look at the FIP Wizard ([https://fip-wizard.ds-wizard.org/](https://fip-wizard.ds-wizard.org/)),
+following the choice made by WorldFAIR. During the workshop, two FIPs were
+started. The first FIP was developed for AOPs, ...
 
-
+The second FIP was developed for ...
 
 
 # Discussion
