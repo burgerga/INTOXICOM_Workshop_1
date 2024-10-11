@@ -6,17 +6,23 @@ tags:
   - ELIXIR Europe
 authors:
   - name: Marvin Martens
-    orcid: 0000-0001-7542-0286
     affiliation: 1
   - name: Iseult Lynch
+  - orcid: 0000-0003-4250-4584
     affiliation: 2
+  - name: Thomas Exner
+    orcid: 0000-0002-1849-5246
+    affiliation: 3
   - name: Egon Willighagen
+    orcid: 0000-0001-7542-0286
     affiliation: 1
 affiliations:
   - name: Dept of Translational Genomics, NUTRIM, FHML, Maastricht University, Maastricht, NL
     index: 1
   - name: University of Birmingham, Birmingham, UK
     index: 2
+  - name: Seven Past Nine GmbH, Schopfheim, Germany
+    index: 3
 date: 29 May 2024
 cito-bibliography: paper.bib
 event: INTOXICOM
