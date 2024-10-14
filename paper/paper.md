@@ -81,7 +81,7 @@ Participants came from various universities (Karolinska Leiden, Maastricht, ...,
 Leibniz, and Birmingham),
 research institutes (TNO, EU-JRC, RIVM), regulators, and various ELIXIR Platforms.
 Furthermore, ongoing toxicology research projects in which attendees are involved in, and from which also data problems were identified prior to the workshop for giving direction, included VHP4Safety (https://www.sciencrew.com/c/6586?title=VHP4Safety)
-PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/), [RS: others as well I can not retrieve the original inventory of data problems], . In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
+PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/), [RS: others as well  (https://www.risk-hunt3r.eu/)) I can not retrieve the original inventory of data problems], . In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
 Czechia, and Sweden.
 
 ## Presentations
@@ -112,9 +112,8 @@ Table: Presentations at the workshop.
 | Penny Nymark | Data vs. metadata in an Adverse Outcome |
 |              | Pathway |
 
-The meeting covered a few topics on the interface between ELIXIR and the
-toxicology community. The first topic was generally FAIRification of research
-output (an guiding definition is found in [@citesForInformation:Houweling2023]).
+To zoom in on the possible exploration of ELIXIR resources/tools/platforms as to the usefullness of benefiting the toxicology research community, the first topic was the general FAIRification of research
+output (a guiding definition is found in [@citesForInformation:Houweling2023]).
 A main aspect of this part of the workshop was around making
 data FAIR, ambitions, and practical challenges. This part included a workshop
 discussion and writing a guidance document on making project reports more
