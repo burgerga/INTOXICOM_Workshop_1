@@ -1,6 +1,6 @@
 ---
 title: 'INTOXICOM Workshop Report: FAIRification of Toxicological Research Output: Leveraging ELIXIR Resources'
-title_short: 'INTOXIOM #1: unknown chemical substances'
+title_short: 'INTOXICOM #1: unknown chemical substances'
 tags:
   - toxicology
   - ELIXIR Europe
@@ -25,7 +25,7 @@ affiliations:
     index: 2
   - name: Seven Past Nine GmbH, Schopfheim, Germany
     index: 3
-  - name: TNO The Netherlands
+  - name: The Netherlands Organisation for Applied Scientific Research TNO
     index: 4
 date: 29 May 2024
 cito-bibliography: paper.bib
@@ -45,8 +45,8 @@ Toxicology Community [@citesAsRecommendedReading:Martens2023ELIXIR]
 as part of the
 INTOXICOM Implementation Study workshop series [@citesAsEvidence:INTOXICOM],
 held in Utrecht on May 28 and 29 2024 [@citesAsEvidence:Aanmelder]. The topic of
-the meeting was the FAIRification of toxicological research output, including how
-ELIXIR resources may be able to help here. The meeting was organized by a team
+the meeting was the FAIRification of toxicological research output, including the exploration how
+ELIXIR resources may facilitate this. The meeting was organized by a team
 of ten people from the ELIXIR Toxicology Community: Marvin Martens, Penny Nymark,
 Iseult Lynch, Meike Bünger, Rob Stierum, Thomas Exner, Egon Willighagen, Ammar Ammar,
 Dominik Martinát, and Karel Berka. The target audience of this first INTOXICOM
