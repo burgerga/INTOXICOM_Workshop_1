@@ -68,22 +68,20 @@ findable in more ways, and continues on the efforts of the CIAO project
 AOPs [@citesForInformation:Carusi2023]. The output of this part would be the FAIR
 Implementation Profile for AOPs.
 
-The deliverables for the workshop include: 1. this report; 2. a FAIR Implementation Profile for AOPs; and, 3.
+The deliverables for the workshop include: 1. this report; 2. a FAIR Implementation Profile for AOPs; and 3.
 a proposed standard on how to use compact identifiers on project reports.
 
-This report will describe the program of the actually held workshop, link to
-presentations (where possible), and discuss the hands-on work done and results
-from that.
+This report describes the outcome of the workshop, provides links to presentations (when applicable), and discusses the hands-on work done including emerging results.
 
 # The workshop
 
 The workshop was attended in person in Utrecht (The Netherlands) by 16 people on the first day,
-with two people giving an online presentation, and X people on the second day.
+with two people giving an online presentation [RS: but how many participated online??], and X people on the second day.
 Participants came from various universities (Karolinska Leiden, Maastricht, ...,
 Leibniz, and Birmingham),
 research institutes (TNO, EU-JRC, RIVM), regulators, and various ELIXIR Platforms.
-Ongoing toxicology projects that people are involved in included VHP4Safety,
-PARC, and PINK. Participants came from The Netherlands, Italy, UK, Germany,
+Furthermore, ongoing toxicology research projects in which attendees are involved in, and from which also data problems were identified prior to the workshop for giving direction, included VHP4Safety (https://www.sciencrew.com/c/6586?title=VHP4Safety)
+PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/), [RS: others as well I can not retrieve the original inventory of data problems], . In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
 Czechia, and Sweden.
 
 ## Presentations
@@ -116,7 +114,7 @@ Table: Presentations at the workshop.
 
 The meeting covered a few topics on the interface between ELIXIR and the
 toxicology community. The first topic was generally FAIRification of research
-output (an guiding defintiion is found in [@citesForInformation:Houweling2023]).
+output (an guiding definition is found in [@citesForInformation:Houweling2023]).
 A main aspect of this part of the workshop was around making
 data FAIR, ambitions, and practical challenges. This part included a workshop
 discussion and writing a guidance document on making project reports more
