@@ -112,17 +112,17 @@ Table: Presentations at the workshop.
 | Penny Nymark | Data vs. metadata in an Adverse Outcome |
 |              | Pathway |
 
-To zoom in on the possible exploration of ELIXIR resources/tools/platforms as to the usefullness of benefiting the toxicology research community, the first topic was the general FAIRification of research
+To zoom in on the possible exploration of ELIXIR resources/tools/platforms as to the usefullness towards the toxicology research community, the first topic was the general FAIRification of research
 output (a guiding definition is found in [@citesForInformation:Houweling2023]).
 A main aspect of this part of the workshop was around making
-data FAIR, ambitions, and practical challenges. This part included a workshop
+data FAIR, considering the ambitions, and practical challenges. This part included a workshop
 discussion and writing a guidance document on making project reports more
 interoperable with compact identifiers.
 
 This part was followed by a hands-on session around FAIRificiation recipes in
 the ELIXIR FAIR Cookbook. To decide on the topics of the recipes, several
 data challenges were identified. Partly, these challenges were collected before the
-workshop in the preparatory webinar.
+workshop in the preparatory webinar. 
 
 The first day ended with a third topic, around making adverse outcome pathways
 (AOPs) more FAIR, continuing on earlier work by the CIAO project and feeding
