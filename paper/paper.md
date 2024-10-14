@@ -16,6 +16,8 @@ authors:
   - name: Egon Willighagen
     orcid: 0000-0001-7542-0286
     affiliation: 1
+  - name: Rob Stierum
+    affiliation: XXXXXXXXX
 affiliations:
   - name: Dept of Translational Genomics, NUTRIM, FHML, Maastricht University, Maastricht, NL
     index: 1
