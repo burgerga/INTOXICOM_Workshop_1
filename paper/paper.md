@@ -17,7 +17,7 @@ authors:
     orcid: 0000-0001-7542-0286
     affiliation: 1
   - name: Rob Stierum
-    affiliation: XXXXXXXXX
+    affiliation: 4
 affiliations:
   - name: Dept of Translational Genomics, NUTRIM, FHML, Maastricht University, Maastricht, NL
     index: 1
@@ -25,6 +25,8 @@ affiliations:
     index: 2
   - name: Seven Past Nine GmbH, Schopfheim, Germany
     index: 3
+  - name: TNO The Netherlands
+    index: 4
 date: 29 May 2024
 cito-bibliography: paper.bib
 event: INTOXICOM
