@@ -55,21 +55,20 @@ research or in making their data (more) FAIR, as well as data managers/stewards
 and researchers working with adverse outcome pathways (AOPs).
 
 The workshop included presentations and working sessions around various topics.
-The INTOXICOM described the first workshop as having two parts. The first part
-of the workshop would focus on applying FAIR solutions to toxicology databases
+The the first workshop within the INTOXICOM implementation study conssisted of two parts. The first part
+of the workshop focussed on the application of FAIR solutions to toxicology databases
 and datasets. Part of this was describing the use of compact identifiers to link
 to specific records in databases in narratives such as project deliverables, e.g.
 in PARC [@citesForInformation:PARC].
 
-The second part would focus on Adverse Outcome Pathways (AOPs) in the AOP-Wiki.
-The workshop will explore the FAIRification of AOPs and AOP-Wiki, making AOPs
+The second part adressed Adverse Outcome Pathways (AOPs) in the AOP-Wiki.
+The workshop explored the FAIRification of AOPs and AOP-Wiki, making AOPs
 findable in more ways, and continues on the efforts of the CIAO project
 ([ciao-covid.net](https://ciao-covid.net/)) that assesses the FAIRness of
 AOPs [@citesForInformation:Carusi2023]. The output of this part would be the FAIR
 Implementation Profile for AOPs.
 
-The planned delvierables for the workshop
-include: 1. this report; 2. a FAIR Implementation Profile for AOPs; and, 3.
+The deliverables for the workshop include: 1. this report; 2. a FAIR Implementation Profile for AOPs; and, 3.
 a proposed standard on how to use compact identifiers on project reports.
 
 This report will describe the program of the actually held workshop, link to
