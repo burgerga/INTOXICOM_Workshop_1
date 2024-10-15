@@ -1,3 +1,4 @@
+RS GENERAL REMARK: ADD SOME ILLUSTRATIONS? E.G. ON THE OUTCOME OF THE FAIR COOK BOOK, ON THE TOXICOLOGY REPOSITORY UNDER FAIRSHARING.ORG ?? ETC.
 ---
 title: 'INTOXICOM Workshop Report: FAIRification of Toxicological Research Output: Leveraging ELIXIR Resources'
 title_short: 'INTOXICOM #1: unknown chemical substances'
@@ -121,10 +122,10 @@ This part was followed by a hands-on session around FAIRificiation recipes in
 the ELIXIR FAIR Cookbook. The selection of data challenges/topics for this session was based upon topics identified from the Research Projects mentioned above, as well as during the preparatory webinar series.
 
 The first day ended with a third topic, around making adverse outcome pathways
-(AOPs) more FAIR, continuing on earlier work by the CIAO project [HYPERLINK NEEDED] and feeding
+(AOPs) more FAIR, continuing on earlier work by the CIAO project [RS: HYPERLINK NEEDED] and feeding
 into the continued development of the AOP-Wiki.
 
-The second day started with session on the ELIXIR Data Platform and the
+The second day started with a session on the ELIXIR Data Platform and the
 FAIRsharing Toxicology Collection. This collection has been an ongoing collaboration
 between the ELIXIR Toxicology Community and the FAIRsharing project, recently
 boosted by a FAIRsharing Community Champion project.
@@ -152,14 +153,14 @@ A draft guidance document has been under development and is available at
 
 ## FAIR standards and challenges
 
-One of the outcomes of the workshop comes from the discussions. Where ELIXIR
+One of the outcomes of the workshop comes from the discussions [RS: THE PREVIOUS SENTENCE IS A BIT GENERIC, AND IN A WAY LOGICAL ALREADY, HOW ABOUT: As to the aspect of using FAIR standards and associated challenges, the participants discussed various aspect   . Where ELIXIR
 already provides many solution for FAIR, adoption in projects and communities
 is not trivial. PARC is adopting various solutions, invluding FIPs and FAIR
 Data Points (FDPs) [@citesAsRecommendedReading:Silva2022FAIR]. Community
-standards like IUCLID6 and the Toxicology Process Ontology (TXPO) were mentiond.
+standards like IUCLID6 and the Toxicology Process Ontology (TXPO) were mentioned.
 Other toxicology projects adopted solutions including repositories like the
 EMBL-EBI BioStudies, OpenAIRE, and Zenodo. The role of global unique identifiers
-comes up, including the Nano-InChI [@citesAsPotentialSolution:Lynch2020] and the European Registry of Materials
+was raised, including the Nano-InChI [@citesAsPotentialSolution:Lynch2020] and the European Registry of Materials
 (ERM) identifier [@citesAsPotentialSolution:VanRijn2022] as metadata for datasets to indicate what chemicals are
 studied in those datasets.
 
