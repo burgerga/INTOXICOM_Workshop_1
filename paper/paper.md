@@ -153,16 +153,16 @@ A draft guidance document has been under development and is available at
 
 ## FAIR standards and challenges
 
-One of the outcomes of the workshop comes from the discussions [RS: THE PREVIOUS SENTENCE IS A BIT GENERIC, AND IN A WAY LOGICAL ALREADY, HOW ABOUT: As to the aspect of using FAIR standards and associated challenges, the participants discussed various aspect   . Where ELIXIR
+One of the outcomes of the workshop comes from the discussions [RS: THE PREVIOUS SENTENCE IS A BIT GENERIC, AND IN A WAY LOGICAL ALREADY, HOW ABOUT: "With regards to FAIR standards and associated challenges, the participants discussed various aspects". Whereas ELIXIR
 already provides many solution for FAIR, adoption in projects and communities
 is not trivial. PARC is adopting various solutions, invluding FIPs and FAIR
 Data Points (FDPs) [@citesAsRecommendedReading:Silva2022FAIR]. Community
-standards like IUCLID6 and the Toxicology Process Ontology (TXPO) were mentioned.
+standards like IUCLID6 and the Toxic Process Ontology (TXPO) were mentioned [RS: THAT IS CORRECT HOWEVER THESE ARE THEMSELVES NO FAIR STANDARDS YET AND AS SUCH ARE NO IMMEDIATE SOLUTIONS FOR FAIRIFICATION (OR ARE THEY?), IN THE END THESE RESOURCES MAY CONTRIBUTE TO FAIRNESS, AS IUCLID6 DEMANDS A STRUCTURED RECORING OF (META)DATA ACCORDING TO OECD HARMONZIED TEMPLATES) AND ONTOLOGIES ARE ALWAYS HELPFULL....] 
 Other toxicology projects adopted solutions including repositories like the
-EMBL-EBI BioStudies, OpenAIRE, and Zenodo. The role of global unique identifiers
+EMBL-EBI BioStudies, OpenAIRE, and Zenodo [RS: IS IT POSSIBLE TO BE MORE SPECIFIC WHICH TOX PROJECTS HAVE ADOPTED WHICH TOOLS?]. The role of global unique identifiers
 was raised, including the Nano-InChI [@citesAsPotentialSolution:Lynch2020] and the European Registry of Materials
-(ERM) identifier [@citesAsPotentialSolution:VanRijn2022] as metadata for datasets to indicate what chemicals are
-studied in those datasets.
+(ERM) identifier [@citesAsPotentialSolution:VanRijn2022] as metadata for datasets to unequivocally indicate which chemicals are
+studied within these toxicology projects/datasets.
 
 Challenges the toxicology community faces include incomplete interoperabilty,
 lack of adoption of unique identifers, and data that cannot be reused because
