@@ -162,12 +162,18 @@ Other toxicology projects adopted solutions including repositories like the
 EMBL-EBI BioStudies, OpenAIRE, and Zenodo [RS: IS IT POSSIBLE TO BE MORE SPECIFIC WHICH TOX PROJECTS HAVE ADOPTED WHICH TOOLS?]. The role of global unique identifiers
 was raised, including the Nano-InChI [@citesAsPotentialSolution:Lynch2020] and the European Registry of Materials
 (ERM) identifier [@citesAsPotentialSolution:VanRijn2022] as metadata for datasets to unequivocally indicate which chemicals are
-studied within these toxicology projects/datasets.
+studied within these toxicology projects.
 
 Challenges the toxicology community faces include incomplete interoperabilty,
-lack of adoption of unique identifers, and data that cannot be reused because
-it does not meet community standards. Three specific challenges were identified
-that need following up: the first is the BioStudies web interface is not
+lack of adoption of unique identifiers, and data that cannot be reused because
+it does not meet community standards. 
+
+[RS NOT CLEAR HOW THE TEXT ABOVE RELATES TO BELOW. ABOVE YOU MENTION 3 CHALLENGES (1) INCOMPLETE INTEROPERABILITY; (2) LACK OF ADOPTION OF UNIQUE IDENTIFIERS; (2) DATA NOT MEETING COMMUNITY STANDARDS. BELOW YOU MENTION 3 DATA CHALLENGES, FOR WHICH THE FIRST TWO ARE THE SAME AS ABOVE, I UNDERSTAND THIS. HOWEVER, THE THIRD CHALLENGE MENTIONED BELOW IS ABOUT ONTOLOGIES WHICH IS NOT NECESSARILY THE SAME AS MEETING COMMUNITY STANDARDS: E.G. IUCLID IS AN ECHA STANDARD BUT NOT AN ONTOLOGY PER SE, CAN YOU CLARIFY]
+
+Below, these three specific identified challenges, for which follow up is to be expected within the toxicology community, are explained in more detail
+
+
+The first is the BioStudies web interface is not
 sufficiently interoperable, works with plain text, and does not provide an
 easy (machine) interface for annotation with identifiers and ontologies.
 
@@ -179,7 +185,7 @@ this ([https://nanocommons.github.io/datasets/](https://nanocommons.github.io/da
 but work is mostly manual.
 
 The third challenge is a general incompleteness of ontologies. Finding ontology
-terms to be used for annotation of research output is non-trivial whle the
+terms to be used for annotation of research output is non-trivial whIle the
 translation of ontology terms to identifiers are key to data consistency and 
 interoperability. As examples of this challenge the ontological annotation of
 biological assays and composite nanoamterials were discussed.
