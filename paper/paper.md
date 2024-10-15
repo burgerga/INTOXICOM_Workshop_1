@@ -186,7 +186,7 @@ this ([https://nanocommons.github.io/datasets/](https://nanocommons.github.io/da
 but annotating the data still needs to be done in a manual way.
 
 The third challenge is a general incompleteness of ontologies  [RS: OR IS IT A BIT WIDER COMPARED TO ONTOLOGIES ONLY, THAT IS "DATA NOT MEETING COMMUNITY STANDARDS?" SEE ALSO MY REMARK ABOVE]. Finding ontology
-terms to be used for annotation of research output is non-trivial whIle the
+terms to be used for annotation of research output is non-trivial while the
 translation of ontology terms to identifiers are key to data consistency and 
 interoperability. As examples of this challenge the ontological annotation of
 biological assays and composite nanoamterials were discussed.
@@ -199,7 +199,13 @@ effects.
 ## FAIR-ification recipes
 
 After an introduction to the concepts of the FAIR Cookbook, the workshop
-participants started two Cookbook recipes...
+participants started two [RS: CAN NOT REMEMBER FULLY OR THREE??]Cookbook recipes...
+
+[RS FROM: https://drive.google.com/drive/folders/1DU5rQhbthUY-NwVC_CD1CFEGSZahOkvk. Hands-on recipes:
+- AOP KE component: https://hackmd.io/@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR. Additional notes: Title: Adding KE Component annotations in AOP-Wiki
+- cell based BOA https://hackmd.io/@lusinke/rkXlvLXE0. reported back by Javi
+- Setting up imaging based confocal screening : https://hackmd.io/@danilyuktd/BkcBXvmEA. reported back by Tamara]
+[RS CAN THE OWNERS OF THE RECEPIES PERHAPS PROVIDE SOME MORE DETAILS HERE, WITH SUGGESTION: TOGETHER WITH A REFLECTION ON HOW EASY IT WAS TO ADOPT THE FAIR COOKBOOK PRINCIPLE IN THEIR WORK?]
 
 ## FAIR Implementation profiles
 
@@ -209,11 +215,12 @@ started. The first FIP was developed for AOPs, ...
 
   https://docs.google.com/spreadsheets/d/1Bc7sCERl7FIJxm8wp7wz3vzZdnNaf-6N_8pn_xFMQyM/edit?usp=drive_link
 
-The second FIP was developed for transcriptomics data, based on solutions
+The second FIP was developed for [RS: TOXICOGENOMICS //] transcriptomics data, based on solutions
 provided by ELIXIR Europe...
 
   https://docs.google.com/spreadsheets/d/1yNEYzJRbx10RkuqJmLcO7RPOq-nrimUKQLQW6uWzfho/edit?usp=sharing
 
+[RS: SOME ADDITIONAL TEXT NEEDED INCLUDING USER EXPERIENCES HOW TO USE THE CONCEPT OF ESTABLISHING A FIP]
 
 # Discussion
 
@@ -224,13 +231,25 @@ and toxicology communities.
 
 Remaining key challenges includes ...
 
+[RS SOME THOUGHTS FOR DISCUSSION, WITH THE NOTITION THAT IT HAS BEEN SOME TIME SINCE THE WORKSHOP AND MY MEMORY IS FADING HERE
+DIFFICULT TO BALANCE BETWEEN DETAILED (META)DATA ANNOTATION OF STUDIES VERSUS PRACTICAL FEASABILITY WITHIN TOXICOLOGY PROJECTS.
+TOXICOLOGY IS AN INTERDISCIPLINARY BROAD FIELD, COMBINING CHEMISTRY, BIOLOGY, MOLECULAR SCIENCES (E.G. OMICS), RISK ASSESSMENT, AND ENVIRONMENTAL SCIENCES IF YOU WILL. WHICH MAY MAKE THIS EVEN MORE CHALLENGING
+
+THEREFORE, THE DEVELOPMENT OF/USE OF FAIR COOKBOOK AND/OR FIP CAN GO MANY WAYS, AS WE DID I THINK EVIDENCED DURING THE WORKSHOP: AND EVEN THOUGH THESE RESOURCES ARE A STEP FORWARD TO ULTIMATE FAIRIFICATION ONE SOLUTION (A FIP, A RECPY) CREATED BY RESEARCHER X DOES NOT NECESSARILY ACCOMODATES THE NEED FOR RESEARCHER Z
+CAN WE LEARN FROM OTHER DISCIPLINES (TECHNOLOGY) IN WHICH STANDARDISATION HAS BEEN MORE ADVANCED, E.G. USB, BLUETOOTH, ETC ETC? HOW WAS THIS ULTIMATELY ENFORCED WITHIN LARGER COMMUNITIES?
+CAN WE ADDRESS OURSELVES THE QUESTION 
+
+I ALSO THINK NAIVELY IF WE RECOMMENDATIONS
+
+
+
 ## Acknowledgements
 
 ...
 
 ## Funding
 
-This workshop was funded by the ELIXIR Europe INTOXICOM grant. Participants acknowledge 
+This workshop was funded by the ELIXIR Europe INTOXICOM grant (Proposal ID: NL-2023-INTOXICOM). Participants acknowledge 
 funding from PARC (Grant agreement No. 101057014 and UKRI Grant No. 1752317),
 WorldFAIR (Grant agreement No. 101058393 and UKRI Grant No. 1831977 ) and
 PINK (Grant agreement No. 101137809 and UKRI Grant No. 10097944).
