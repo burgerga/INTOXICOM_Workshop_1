@@ -157,34 +157,35 @@ One of the outcomes of the workshop comes from the discussions [RS: THE PREVIOUS
 already provides many solution for FAIR, adoption in projects and communities
 is not trivial. PARC is adopting various solutions, invluding FIPs and FAIR
 Data Points (FDPs) [@citesAsRecommendedReading:Silva2022FAIR]. Community
-standards like IUCLID6 and the Toxic Process Ontology (TXPO) were mentioned [RS: THAT IS CORRECT HOWEVER THESE ARE THEMSELVES NO FAIR STANDARDS YET AND AS SUCH ARE NO IMMEDIATE SOLUTIONS FOR FAIRIFICATION (OR ARE THEY?), IN THE END THESE RESOURCES MAY CONTRIBUTE TO FAIRNESS, AS IUCLID6 DEMANDS A STRUCTURED RECORING OF (META)DATA ACCORDING TO OECD HARMONZIED TEMPLATES) AND ONTOLOGIES ARE ALWAYS HELPFULL....] 
+standards like IUCLID6 and the Toxic Process Ontology (TXPO) were mentioned [RS: THAT IS CORRECT, HOWEVER THESE ARE THEMSELVES NO FAIR STANDARDS YET AND AS SUCH ARE NO IMMEDIATE SOLUTIONS FOR FAIRIFICATION (OR ARE THEY?), IN THE END THESE RESOURCES MAY CONTRIBUTE TO FAIRNESS, AS IUCLID6 DEMANDS A STRUCTURED RECORING OF (META)DATA ACCORDING TO OECD HARMONZIED TEMPLATES) AND ONTOLOGIES ARE ALWAYS HELPFULL....] 
 Other toxicology projects adopted solutions including repositories like the
 EMBL-EBI BioStudies, OpenAIRE, and Zenodo [RS: IS IT POSSIBLE TO BE MORE SPECIFIC WHICH TOX PROJECTS HAVE ADOPTED WHICH TOOLS?]. The role of global unique identifiers
 was raised, including the Nano-InChI [@citesAsPotentialSolution:Lynch2020] and the European Registry of Materials
 (ERM) identifier [@citesAsPotentialSolution:VanRijn2022] as metadata for datasets to unequivocally indicate which chemicals are
 studied within these toxicology projects.
 
-Challenges the toxicology community faces include incomplete interoperabilty,
-lack of adoption of unique identifiers, and data that cannot be reused because
+Challenges the toxicology community faces include (1) incomplete interoperabilty,
+(2) lack of adoption of unique identifiers, and (3) data that cannot be reused because
 it does not meet community standards. 
 
-[RS NOT CLEAR HOW THE TEXT ABOVE RELATES TO BELOW. ABOVE YOU MENTION 3 CHALLENGES (1) INCOMPLETE INTEROPERABILITY; (2) LACK OF ADOPTION OF UNIQUE IDENTIFIERS; (2) DATA NOT MEETING COMMUNITY STANDARDS. BELOW YOU MENTION 3 DATA CHALLENGES, FOR WHICH THE FIRST TWO ARE THE SAME AS ABOVE, I UNDERSTAND THIS. HOWEVER, THE THIRD CHALLENGE MENTIONED BELOW IS ABOUT ONTOLOGIES WHICH IS NOT NECESSARILY THE SAME AS MEETING COMMUNITY STANDARDS: E.G. IUCLID IS AN ECHA STANDARD BUT NOT AN ONTOLOGY PER SE, CAN YOU CLARIFY]
+[RS NOT CLEAR HOW THE TEXT ABOVE RELATES TO BELOW. ABOVE YOU MENTION 3 CHALLENGES (1) INCOMPLETE INTEROPERABILITY; (2) LACK OF ADOPTION OF UNIQUE IDENTIFIERS; (2) DATA NOT MEETING COMMUNITY STANDARDS. BELOW YOU MENTION AGAIN 3 DATA CHALLENGES, FOR WHICH THE FIRST TWO ARE THE SAME AS ABOVE, I UNDERSTAND THIS. HOWEVER, THE THIRD CHALLENGE MENTIONED BELOW IS ABOUT ONTOLOGIES WHICH IS NOT NECESSARILY THE SAME AS MEETING COMMUNITY STANDARDS, OR IS THIS WHAT YOU MEAN: E.G. IUCLID IS AN ECHA STANDARD BUT NOT AN ONTOLOGY PER SE, CAN YOU CLARIFY?] 
 
-Below, these three specific identified challenges, for which follow up is to be expected within the toxicology community, are explained in more detail
+Below, these three specific identified challenges, for which follow up is to be relevant for the toxicology community, are explained in more detail
 
 
-The first is the BioStudies web interface is not
-sufficiently interoperable, works with plain text, and does not provide an
-easy (machine) interface for annotation with identifiers and ontologies.
+The first is the fact that the BioStudies web interface [RS THIS IS A VERY SPECIFIC CHALLENGE SPECIFICALLY FOR AN ELIXIR INFRASTRUCTURE COMPONENT, WHICH FITS THE WORKSHOP IDEA. IT FALLS UNDER THE MORE GENERIC CHALLENGE OF "INCOMPLETE INTEROPERABILITY" BUT SOMEHWERE WE NEED TO MENTION THE TRANSITION IN THE TEXT FROM THE  OBSERVATION THAT INTEROPERABILITY IS AN ISSUE IN GENERAL, TO THIS SPECIFIC ELIXIR EXAMPLE. OR AM I WRONG AND WAS THIS (BIOSTUDIES) IN FACT THE VERY SPECIFIC DATA CHALLENGE IDENTIFIED FROM ONE OF THE TOXICOLOGY PROJECTS?]
+sufficiently interoperable. The website allows to work with plain text (e.g. to enable the querying of the biostudies within the "Search BioStudies" field, but does not provide an
+easy (machine) interface for annotation with identifiers and ontologies. [RS POST MEETING REMARK: IF I LOOK AT https://www.ebi.ac.uk/biostudies/help#, THERE ARE SOME OPTIONS TO QUERY THE DATA IN MORE DETAIL USING AN API]
+
 
 The second challenge specifically listed is the adoption of identifiers in
-toxicology datasets. Better metadata of datasets with those identifiers is
+toxicology datasets. Better metadata of datasets with supporting unique identifiers is
 essential. It could be solved with compact identifiers in descriptions or
 identifiers as keywords. The NanoCommons community made some progress with
 this ([https://nanocommons.github.io/datasets/](https://nanocommons.github.io/datasets/)),
-but work is mostly manual.
+but annotating the data still needs to be done in a manual way.
 
-The third challenge is a general incompleteness of ontologies. Finding ontology
+The third challenge is a general incompleteness of ontologies  [RS: OR IS IT A BIT WIDER COMPARED TO ONTOLOGIES ONLY, THAT IS "DATA NOT MEETING COMMUNITY STANDARDS?" SEE ALSO MY REMARK ABOVE]. Finding ontology
 terms to be used for annotation of research output is non-trivial whIle the
 translation of ontology terms to identifiers are key to data consistency and 
 interoperability. As examples of this challenge the ontological annotation of
