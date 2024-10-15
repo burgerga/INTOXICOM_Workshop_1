@@ -76,12 +76,12 @@ This report describes the outcome of the workshop, provides links to presentatio
 # The workshop
 
 The workshop was attended in person in Utrecht (The Netherlands) by 16 people on the first day,
-with two people giving an online presentation [RS: but how many participated online??], and X people on the second day.
+with two people giving an online presentation [RS: HOW MANY PARTICIPATED ONLINE ??], and X people on the second day.
 Participants came from various universities (Karolinska Leiden, Maastricht, ...,
 Leibniz, and Birmingham),
 research institutes (TNO, EU-JRC, RIVM), regulators, and various ELIXIR Platforms.
-Furthermore, ongoing toxicology research projects in which attendees are involved in, and from which also data problems were identified prior to the workshop for giving direction, included VHP4Safety (https://www.sciencrew.com/c/6586?title=VHP4Safety)
-PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/), [RS: others as well  (https://www.risk-hunt3r.eu/)) I can not retrieve the original inventory of data problems], . In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
+Furthermore, ongoing toxicology research projects in which attendees are involved in, and from which also data problems/challenges were identified prior to the workshop for giving direction, included VHP4Safety (https://www.sciencrew.com/c/6586?title=VHP4Safety)
+PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/), [RS: OTHER PROJECTS AS WELL I RECALL FOR EXAMPLE (https://www.risk-hunt3r.eu/)) HOWEVER I CANNOT RETRIEVE FROM THE GOOGLE THE ORIGINAL INVENTORY OF DATA PROBLEMS WE DID PRIOR TO THE WORKSHOP, . In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
 Czechia, and Sweden.
 
 ## Presentations
@@ -114,18 +114,14 @@ Table: Presentations at the workshop.
 
 To zoom in on the possible exploration of ELIXIR resources/tools/platforms as to the usefullness towards the toxicology research community, the first topic was the general FAIRification of research
 output (a guiding definition is found in [@citesForInformation:Houweling2023]).
-A main aspect of this part of the workshop was around making
-data FAIR, considering the ambitions, and practical challenges. This part included a workshop
-discussion and writing a guidance document on making project reports more
-interoperable with compact identifiers.
+A main aspect of this part of the workshop was around making data FAIR, considering the ambitions, and practical challenges. This part included a workshop
+discussion and writing a guidance document on making project reports more interoperable using compact identifiers.
 
 This part was followed by a hands-on session around FAIRificiation recipes in
-the ELIXIR FAIR Cookbook. To decide on the topics of the recipes, several
-data challenges were identified. Partly, these challenges were collected before the
-workshop in the preparatory webinar. 
+the ELIXIR FAIR Cookbook. The selection of data challenges/topics for this session was based upon topics identified from the Research Projects mentioned above, as well as during the preparatory webinar series.
 
 The first day ended with a third topic, around making adverse outcome pathways
-(AOPs) more FAIR, continuing on earlier work by the CIAO project and feeding
+(AOPs) more FAIR, continuing on earlier work by the CIAO project [HYPERLINK NEEDED] and feeding
 into the continued development of the AOP-Wiki.
 
 The second day started with session on the ELIXIR Data Platform and the
