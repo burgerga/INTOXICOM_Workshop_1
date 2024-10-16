@@ -118,8 +118,7 @@ Table: Presentations at the workshop.
 | David Lloyd | ELIXIR Introduction |
 | Marvin Martens | ELIXIR Toxicology Community |
 | Iseult Lynch | FAIR data to support Chemical Risk Assessment & |
-|              | Regulation – the PARC approach for |
-|              | toxicological data |
+|              | Regulation – the PARC approach for toxicological data |
 | Rob Stierum | Compact IDs - identified challenges |
 | Egon Willighagen | Introduction to hands-on session data FAIRification |
 | Penny Nymark | What is an Adverse Outcome Pathway? |
