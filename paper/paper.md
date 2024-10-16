@@ -31,13 +31,13 @@ affiliations:
     index: 1
   - name: University of Birmingham, Birmingham, UK
     index: 2
-  - name: Seven Past Nine GmbH, Schopfheim, Germany
+  - name: Seven Past Nine GmbH, Schopfheim, DE
     index: 3
-  - name: The&nbsp;Netherlands&nbsp;Organisation for Applied Scientific Research. Risk Analysis for Prevention, Innovation & Development, Utrecht, The Netherlands
+  - name: The&nbsp;Netherlands&nbsp;Organisation for Applied Scientific Research. Risk Analysis for Prevention, Innovation & Development, Utrecht, NL
     index: 4
-  - name: Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden
+  - name: Institute of Environmental Medicine, Karolinska Institutet, Stockholm, SE
     index: 5
-  - name: Department of Physical Chemistry, Palacký University Olomouc, Czech&nbsp;Republic
+  - name: Department of Physical Chemistry, Palacký University Olomouc, CZ
     index: 6
 date: 29 May 2024
 cito-bibliography: paper.bib
