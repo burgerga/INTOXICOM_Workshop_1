@@ -1,4 +1,3 @@
-RS GENERAL REMARK: ADD SOME ILLUSTRATIONS? E.G. ON THE OUTCOME OF THE FAIR COOK BOOK, ON THE TOXICOLOGY REPOSITORY UNDER FAIRSHARING.ORG ?? ETC.
 ---
 title: 'INTOXICOM Workshop Report: FAIRification of Toxicological Research Output: Leveraging ELIXIR Resources'
 title_short: 'INTOXICOM #1: unknown chemical substances'
@@ -39,6 +38,12 @@ git_url: https://github.com/BiGCAT-UM/INTOXICOM_Workshop_1
 authors_short: Martens \emph{et al.}
 ---
 
+<!--
+
+RS GENERAL REMARK: ADD SOME ILLUSTRATIONS? E.G. ON THE OUTCOME OF THE FAIR COOK BOOK, ON THE TOXICOLOGY REPOSITORY UNDER FAIRSHARING.ORG ?? ETC.
+
+-->
+
 # Introduction
 
 This document reports on the first workshop held by the ELIXIR
@@ -77,12 +82,15 @@ This report describes the outcome of the workshop, provides links to presentatio
 # The workshop
 
 The workshop was attended in person in Utrecht (The Netherlands) by 16 people on the first day,
-with two people giving an online presentation [RS: HOW MANY PARTICIPATED ONLINE ??], and X people on the second day.
+with two people giving an online presentation, <!-- [RS: HOW MANY PARTICIPATED ONLINE ??] -->
+and X people on the second day.
 Participants came from various universities (Karolinska Leiden, Maastricht, ...,
 Leibniz, and Birmingham),
 research institutes (TNO, EU-JRC, RIVM), regulators, and various ELIXIR Platforms.
 Furthermore, ongoing toxicology research projects in which attendees are involved in, and from which also data problems/challenges were identified prior to the workshop for giving direction, included VHP4Safety (https://www.sciencrew.com/c/6586?title=VHP4Safety)
-PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/), [RS: OTHER PROJECTS AS WELL I RECALL FOR EXAMPLE (https://www.risk-hunt3r.eu/)) HOWEVER I CANNOT RETRIEVE FROM THE GOOGLE THE ORIGINAL INVENTORY OF DATA PROBLEMS WE DID PRIOR TO THE WORKSHOP, . In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
+PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/),
+<!-- [RS: OTHER PROJECTS AS WELL I RECALL FOR EXAMPLE (https://www.risk-hunt3r.eu/)) HOWEVER I CANNOT RETRIEVE FROM THE GOOGLE THE ORIGINAL INVENTORY OF DATA PROBLEMS WE DID PRIOR TO THE WORKSHOP, -->
+. In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
 Czechia, and Sweden.
 
 ## Presentations
@@ -122,7 +130,7 @@ This part was followed by a hands-on session around FAIRificiation recipes in
 the ELIXIR FAIR Cookbook. The selection of data challenges/topics for this session was based upon topics identified from the Research Projects mentioned above, as well as during the preparatory webinar series.
 
 The first day ended with a third topic, around making adverse outcome pathways
-(AOPs) more FAIR, continuing on earlier work by the CIAO project [RS: HYPERLINK NEEDED] and feeding
+(AOPs) more FAIR, continuing on earlier work by the CIAO project <!-- [RS: HYPERLINK NEEDED] --> and feeding
 into the continued development of the AOP-Wiki.
 
 The second day started with a session on the ELIXIR Data Platform and the
@@ -157,9 +165,9 @@ One of the outcomes of the workshop comes from the discussions [RS: THE PREVIOUS
 already provides many solution for FAIR, adoption in projects and communities
 is not trivial. PARC is adopting various solutions, invluding FIPs and FAIR
 Data Points (FDPs) [@citesAsRecommendedReading:Silva2022FAIR]. Community
-standards like IUCLID6 and the Toxic Process Ontology (TXPO) were mentioned [RS: THAT IS CORRECT, HOWEVER THESE ARE THEMSELVES NO FAIR STANDARDS YET AND AS SUCH ARE NO IMMEDIATE SOLUTIONS FOR FAIRIFICATION (OR ARE THEY?), IN THE END THESE RESOURCES MAY CONTRIBUTE TO FAIRNESS, AS IUCLID6 DEMANDS A STRUCTURED RECORING OF (META)DATA ACCORDING TO OECD HARMONZIED TEMPLATES) AND ONTOLOGIES ARE ALWAYS HELPFULL....] 
+standards like IUCLID6 and the Toxic Process Ontology (TXPO) were mentioned <!-- [RS: THAT IS CORRECT, HOWEVER THESE ARE THEMSELVES NO FAIR STANDARDS YET AND AS SUCH ARE NO IMMEDIATE SOLUTIONS FOR FAIRIFICATION (OR ARE THEY?), IN THE END THESE RESOURCES MAY CONTRIBUTE TO FAIRNESS, AS IUCLID6 DEMANDS A STRUCTURED RECORING OF (META)DATA ACCORDING TO OECD HARMONZIED TEMPLATES) AND ONTOLOGIES ARE ALWAYS HELPFULL....] -->
 Other toxicology projects adopted solutions including repositories like the
-EMBL-EBI BioStudies, OpenAIRE, and Zenodo [RS: IS IT POSSIBLE TO BE MORE SPECIFIC WHICH TOX PROJECTS HAVE ADOPTED WHICH TOOLS?]. The role of global unique identifiers
+EMBL-EBI BioStudies, OpenAIRE, and Zenodo <!-- [RS: IS IT POSSIBLE TO BE MORE SPECIFIC WHICH TOX PROJECTS HAVE ADOPTED WHICH TOOLS?] -->. The role of global unique identifiers
 was raised, including the Nano-InChI [@citesAsPotentialSolution:Lynch2020] and the European Registry of Materials
 (ERM) identifier [@citesAsPotentialSolution:VanRijn2022] as metadata for datasets to unequivocally indicate which chemicals are
 studied within these toxicology projects.
@@ -168,14 +176,16 @@ Challenges the toxicology community faces include (1) incomplete interoperabilty
 (2) lack of adoption of unique identifiers, and (3) data that cannot be reused because
 it does not meet community standards. 
 
+<!-- 
 [RS NOT CLEAR HOW THE TEXT ABOVE RELATES TO BELOW. ABOVE YOU MENTION 3 CHALLENGES (1) INCOMPLETE INTEROPERABILITY; (2) LACK OF ADOPTION OF UNIQUE IDENTIFIERS; (2) DATA NOT MEETING COMMUNITY STANDARDS. BELOW YOU MENTION AGAIN 3 DATA CHALLENGES, FOR WHICH THE FIRST TWO ARE THE SAME AS ABOVE, I UNDERSTAND THIS. HOWEVER, THE THIRD CHALLENGE MENTIONED BELOW IS ABOUT ONTOLOGIES WHICH IS NOT NECESSARILY THE SAME AS MEETING COMMUNITY STANDARDS, OR IS THIS WHAT YOU MEAN: E.G. IUCLID IS AN ECHA STANDARD BUT NOT AN ONTOLOGY PER SE, CAN YOU CLARIFY?] 
+-->
 
 Below, these three specific identified challenges, for which follow up is to be relevant for the toxicology community, are explained in more detail
 
 
-The first is the fact that the BioStudies web interface [RS THIS IS A VERY SPECIFIC CHALLENGE SPECIFICALLY FOR AN ELIXIR INFRASTRUCTURE COMPONENT, WHICH FITS THE WORKSHOP IDEA. IT FALLS UNDER THE MORE GENERIC CHALLENGE OF "INCOMPLETE INTEROPERABILITY" BUT SOMEHWERE WE NEED TO MENTION THE TRANSITION IN THE TEXT FROM THE  OBSERVATION THAT INTEROPERABILITY IS AN ISSUE IN GENERAL, TO THIS SPECIFIC ELIXIR EXAMPLE. OR AM I WRONG AND WAS THIS (BIOSTUDIES) IN FACT THE VERY SPECIFIC DATA CHALLENGE IDENTIFIED FROM ONE OF THE TOXICOLOGY PROJECTS?]
+The first is the fact that the BioStudies web interface <!-- [RS THIS IS A VERY SPECIFIC CHALLENGE SPECIFICALLY FOR AN ELIXIR INFRASTRUCTURE COMPONENT, WHICH FITS THE WORKSHOP IDEA. IT FALLS UNDER THE MORE GENERIC CHALLENGE OF "INCOMPLETE INTEROPERABILITY" BUT SOMEHWERE WE NEED TO MENTION THE TRANSITION IN THE TEXT FROM THE  OBSERVATION THAT INTEROPERABILITY IS AN ISSUE IN GENERAL, TO THIS SPECIFIC ELIXIR EXAMPLE. OR AM I WRONG AND WAS THIS (BIOSTUDIES) IN FACT THE VERY SPECIFIC DATA CHALLENGE IDENTIFIED FROM ONE OF THE TOXICOLOGY PROJECTS?] -->
 sufficiently interoperable. The website allows to work with plain text (e.g. to enable the querying of the biostudies within the "Search BioStudies" field, but does not provide an
-easy (machine) interface for annotation with identifiers and ontologies. [RS POST MEETING REMARK: IF I LOOK AT https://www.ebi.ac.uk/biostudies/help#, THERE ARE SOME OPTIONS TO QUERY THE DATA IN MORE DETAIL USING AN API]
+easy (machine) interface for annotation with identifiers and ontologies. <!-- [RS POST MEETING REMARK: IF I LOOK AT https://www.ebi.ac.uk/biostudies/help#, THERE ARE SOME OPTIONS TO QUERY THE DATA IN MORE DETAIL USING AN API] -->
 
 
 The second challenge specifically listed is the adoption of identifiers in
@@ -185,7 +195,7 @@ identifiers as keywords. The NanoCommons community made some progress with
 this ([https://nanocommons.github.io/datasets/](https://nanocommons.github.io/datasets/)),
 but annotating the data still needs to be done in a manual way.
 
-The third challenge is a general incompleteness of ontologies  [RS: OR IS IT A BIT WIDER COMPARED TO ONTOLOGIES ONLY, THAT IS "DATA NOT MEETING COMMUNITY STANDARDS?" SEE ALSO MY REMARK ABOVE]. Finding ontology
+The third challenge is a general incompleteness of ontologies  <!-- [RS: OR IS IT A BIT WIDER COMPARED TO ONTOLOGIES ONLY, THAT IS "DATA NOT MEETING COMMUNITY STANDARDS?" SEE ALSO MY REMARK ABOVE] -->. Finding ontology
 terms to be used for annotation of research output is non-trivial while the
 translation of ontology terms to identifiers are key to data consistency and 
 interoperability. As examples of this challenge the ontological annotation of
@@ -199,13 +209,14 @@ effects.
 ## FAIR-ification recipes
 
 After an introduction to the concepts of the FAIR Cookbook, the workshop
-participants started two [RS: CAN NOT REMEMBER FULLY OR THREE??]Cookbook recipes...
+participants started two <!-- [RS: CAN NOT REMEMBER FULLY OR THREE??] --> Cookbook recipes...
 
-[RS FROM: https://drive.google.com/drive/folders/1DU5rQhbthUY-NwVC_CD1CFEGSZahOkvk. Hands-on recipes:
+<!-- [RS FROM: https://drive.google.com/drive/folders/1DU5rQhbthUY-NwVC_CD1CFEGSZahOkvk. -->
+Hands-on recipes:
 - AOP KE component: https://hackmd.io/@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR. Additional notes: Title: Adding KE Component annotations in AOP-Wiki
 - cell based BOA https://hackmd.io/@lusinke/rkXlvLXE0. reported back by Javi
 - Setting up imaging based confocal screening : https://hackmd.io/@danilyuktd/BkcBXvmEA. reported back by Tamara]
-[RS CAN THE OWNERS OF THE RECEPIES PERHAPS PROVIDE SOME MORE DETAILS HERE, WITH SUGGESTION: TOGETHER WITH A REFLECTION ON HOW EASY IT WAS TO ADOPT THE FAIR COOKBOOK PRINCIPLE IN THEIR WORK?]
+<!-- [RS CAN THE OWNERS OF THE RECEPIES PERHAPS PROVIDE SOME MORE DETAILS HERE, WITH SUGGESTION: TOGETHER WITH A REFLECTION ON HOW EASY IT WAS TO ADOPT THE FAIR COOKBOOK PRINCIPLE IN THEIR WORK?] -->
 
 ## FAIR Implementation profiles
 
@@ -215,12 +226,12 @@ started. The first FIP was developed for AOPs, ...
 
   https://docs.google.com/spreadsheets/d/1Bc7sCERl7FIJxm8wp7wz3vzZdnNaf-6N_8pn_xFMQyM/edit?usp=drive_link
 
-The second FIP was developed for [RS: TOXICOGENOMICS //] transcriptomics data, based on solutions
+The second FIP was developed for <!-- [RS: TOXICOGENOMICS //] --> transcriptomics data, based on solutions
 provided by ELIXIR Europe...
 
   https://docs.google.com/spreadsheets/d/1yNEYzJRbx10RkuqJmLcO7RPOq-nrimUKQLQW6uWzfho/edit?usp=sharing
 
-[RS: SOME ADDITIONAL TEXT NEEDED INCLUDING USER EXPERIENCES HOW TO USE THE CONCEPT OF ESTABLISHING A FIP]
+<!-- [RS: SOME ADDITIONAL TEXT NEEDED INCLUDING USER EXPERIENCES HOW TO USE THE CONCEPT OF ESTABLISHING A FIP] -->
 
 # Discussion
 
@@ -230,6 +241,8 @@ FIPs, FAIR Cookbook recipes, and other outcomes back into the wider ELIXIR
 and toxicology communities.
 
 Remaining key challenges includes ...
+
+<!-- 
 
 [RS SOME THOUGHTS FOR DISCUSSION, WITH THE NOTITION THAT IT HAS BEEN SOME TIME SINCE THE WORKSHOP AND MY MEMORY IS FADING HERE. 
 
@@ -243,7 +256,7 @@ CAN WE ENFORCE FAIRIFICATION WITHIN THE TOX COMMUNITY, OR IS THIS OT THE WAY TO 
 
 NON-ACADEMIC TOXICOLOGY/RISK ASSESSMENT IS CONSERVATIVE AND MATTERS WILL ONLY CHANGE SLOWLY: FOR TOXICOLOGY OBVIOUSLY OECD/ECHA ETC COULD PLAY A ROLE HERE. FROM RECENT WORK (STIERUM ET AL. 2024 IN PREP. )WE DID IN PARC (FREQUENCY ANALYSIS OF TERMS RELEVANT TO THE PARC FAIR DATA POLICY (E.G. "DATA SHARING AND COLLABORATION" AND "ETHICS AND FAIRNESS", ACCROSS DIFFERENT STAKEHOLDER DOCUMENTS A.O. FROM DECENTRALIZED RISK ASSESSMENT AGENCIES) IT WAS DEMONSTRATED THAT THE "PENETRATION" OF FAIR CONCEPTS WITHIN THESE REGULATORY COMMUNITIES IS MINIMAL. PROBABLY WITH A REASON AS CHEMICAL DOSIERS OFTEN CONTAIN WELL-DEFINED DATA SPACES, THAT ARE OFTEN (PARTIALLY) CONFIDENTIAL, WITH LESS NEED FOR INTEGRATION. THIS MAY CHANGE HOWEVER AS INCREASINGLY RESEARCH DATA MAY BE USED IN DOSIERS IN WEIGHT OF EVIDENCE APPROACHES, SUPPORTING GROUPING/READ ACCROSS BASED UPON NGRA (IN FACT ONE OF THE GOALS OF PARC!) 
 
-
+-->
 
 ## Acknowledgements
 
