@@ -17,7 +17,7 @@ authors:
   - name: Rob Stierum
     orcid: 0000-0002-4409-1974
     affiliation: 4
-  - name: Penny Nymark
+  - name: Penny&nbsp;Nymark
     orcid: 0000-0002-3435-7775
     affiliation: 5
   - name: Dominik Martinát
@@ -33,11 +33,11 @@ affiliations:
     index: 2
   - name: Seven Past Nine GmbH, Schopfheim, Germany
     index: 3
-  - name: The Netherlands Organisation for Applied Scientific Research. Risk Analysis for Prevention, Innovation & Development, Utrecht, The Netherlands
+  - name: The&nbsp;Netherlands&nbsp;Organisation for Applied Scientific Research. Risk Analysis for Prevention, Innovation & Development, Utrecht, The Netherlands
     index: 4
   - name: Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden
     index: 5
-  - name: Department of Physical Chemistry, Palacký University Olomouc, Czech Republic
+  - name: Department of Physical Chemistry, Palacký University Olomouc, Czech&nbsp;Republic
     index: 6
 date: 29 May 2024
 cito-bibliography: paper.bib
@@ -117,21 +117,18 @@ Table: Presentations at the workshop.
 | -------- | -------- |
 | David Lloyd | ELIXIR Introduction |
 | Marvin Martens | ELIXIR Toxicology Community |
-| Iseult Lynch | FAIR data to support Chemical Risk |
-|              | Assessment & Regulation – the PARC |
-|              | approach for toxicological data |
+| Iseult Lynch | FAIR data to support Chemical Risk Assessment & |
+|              | Regulation – the PARC approach for |
+|              | toxicological data |
 | Rob Stierum | Compact IDs - identified challenges |
-| Egon Willighagen | Introduction to hands-on session data |
-|                  | FAIRification |
+| Egon Willighagen | Introduction to hands-on session data FAIRification |
 | Penny Nymark | What is an Adverse Outcome Pathway? |
-| Clemens Wittwehr | Why Adverse Outcome Pathways need |
-|                  | to be FAIR |
+| Clemens Wittwehr | Why Adverse Outcome Pathways need to be FAIR |
 | Marvin Martens | FAIR AOPs - identified challenges |
 | Ulrike Wittig | ELIXIR Data Platform |
 | Marvin Martens | FAIRsharing Toxicology Collection |
 | Iseult Lynch | Welcome to FIP.27.W.1 |
-| Penny Nymark | Data vs. metadata in an Adverse Outcome |
-|              | Pathway |
+| Penny Nymark | Data vs. metadata in an Adverse Outcome Pathway |
 
 To zoom in on the possible exploration of ELIXIR resources/tools/platforms as to the usefullness towards the toxicology research community, the first topic was the general FAIRification of research
 output (a guiding definition is found in [@citesForInformation:Houweling2023]).
@@ -173,7 +170,7 @@ A draft guidance document has been under development and is available at
 
 ## FAIR standards and challenges
 
-One of the outcomes of the workshop comes from the discussions [RS: THE PREVIOUS SENTENCE IS A BIT GENERIC, AND IN A WAY LOGICAL ALREADY, HOW ABOUT: "With regards to FAIR standards and associated challenges, the participants discussed various aspects". Whereas ELIXIR
+One of the outcomes of the workshop comes from the discussions <!-- [RS: THE PREVIOUS SENTENCE IS A BIT GENERIC, AND IN A WAY LOGICAL ALREADY, HOW ABOUT: "With regards to FAIR standards and associated challenges, the participants discussed various aspects" -->. Whereas ELIXIR
 already provides many solution for FAIR, adoption in projects and communities
 is not trivial. PARC is adopting various solutions, invluding FIPs and FAIR
 Data Points (FDPs) [@citesAsRecommendedReading:Silva2022FAIR]. Community
