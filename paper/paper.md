@@ -87,7 +87,7 @@ and X people on the second day.
 Participants came from various universities (Karolinska Leiden, Maastricht, ...,
 Leibniz, and Birmingham),
 research institutes (TNO, EU-JRC, RIVM), regulators, and various ELIXIR Platforms.
-Furthermore, ongoing toxicology research projects in which attendees are involved in, and from which also data problems/challenges were identified prior to the workshop for giving direction, included VHP4Safety (https://www.sciencrew.com/c/6586?title=VHP4Safety)
+Furthermore, ongoing toxicology research projects in which attendees are involved in, and from which also data problems/challenges were identified prior to the workshop for giving direction, included VHP4Safety (https://vhp4safety.nl) [@VHP4Safety2024],
 PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/),
 <!-- [RS: OTHER PROJECTS AS WELL I RECALL FOR EXAMPLE (https://www.risk-hunt3r.eu/)) HOWEVER I CANNOT RETRIEVE FROM THE GOOGLE THE ORIGINAL INVENTORY OF DATA PROBLEMS WE DID PRIOR TO THE WORKSHOP, -->
 . In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
