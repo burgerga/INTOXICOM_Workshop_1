@@ -135,7 +135,7 @@ A main aspect of this part of the workshop was around making data FAIR, consider
 discussion and writing a guidance document on making project reports more interoperable using compact identifiers.
 
 This part was followed by a hands-on session around FAIRificiation recipes in
-the ELIXIR FAIR Cookbook. The selection of data challenges/topics for this session was based upon topics identified from the Research Projects mentioned above, as well as during the preparatory webinar series.
+the ELIXIR FAIR Cookbook [@RoccaSerra2023]. The selection of data challenges/topics for this session was based upon topics identified from the Research Projects mentioned above, as well as during the preparatory webinar series.
 
 The first day ended with a third topic, around making adverse outcome pathways
 (AOPs) more FAIR, continuing on earlier work by the CIAO project <!-- [RS: HYPERLINK NEEDED] --> and feeding
@@ -217,14 +217,17 @@ effects.
 ## FAIR-ification recipes
 
 After an introduction to the concepts of the FAIR Cookbook, the workshop
-participants started two <!-- [RS: CAN NOT REMEMBER FULLY OR THREE??] --> Cookbook recipes...
+participants started three FAIR Cookbook recipes, of which one is currently
+private: "Adding KE Component annotations in AOP-Wiki"
+(private at  https://hackmd.io/@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR),
+"Metadata for cell-based assays using BAO" (see https://hackmd.io/@lusinke/rkXlvLXE0),
+and "Setting up imaging based confocal screening", (see https://hackmd.io/@danilyuktd/BkcBXvmEA).
 
-<!-- [RS FROM: https://drive.google.com/drive/folders/1DU5rQhbthUY-NwVC_CD1CFEGSZahOkvk. -->
-Hands-on recipes:
-- AOP KE component: https://hackmd.io/@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR. Additional notes: Title: Adding KE Component annotations in AOP-Wiki
-- cell based BOA https://hackmd.io/@lusinke/rkXlvLXE0. reported back by Javi
-- Setting up imaging based confocal screening : https://hackmd.io/@danilyuktd/BkcBXvmEA. reported back by Tamara]
 <!-- [RS CAN THE OWNERS OF THE RECEPIES PERHAPS PROVIDE SOME MORE DETAILS HERE, WITH SUGGESTION: TOGETHER WITH A REFLECTION ON HOW EASY IT WAS TO ADOPT THE FAIR COOKBOOK PRINCIPLE IN THEIR WORK?] -->
+
+<!-- EW: one is currently private and could maybe be made public. Second, we need
+         Tooba and the rest of the FAIR Cookbook team to help the authors move
+         forward. -->
 
 ## FAIR Implementation profiles
 
