@@ -6,18 +6,26 @@ tags:
   - ELIXIR Europe
 authors:
   - name: Marvin Martens
+    orcid: 0000-0003-2230-0840
     affiliation: 1
   - name: Iseult Lynch
-  - orcid: 0000-0003-4250-4584
+    orcid: 0000-0003-4250-4584
     affiliation: 2
   - name: Thomas Exner
     orcid: 0000-0002-1849-5246
     affiliation: 3
+  - name: Rob Stierum
+    orcid: 0000-0002-4409-1974
+    affiliation: 4
+  - name: Penny Nymark
+    orcid: 0000-0002-3435-7775
+    affiliation: 5
+  - name: Dominik Martinát
+    orcid: 0000-0001-6611-7883
+    affiliation: 6
   - name: Egon Willighagen
     orcid: 0000-0001-7542-0286
     affiliation: 1
-  - name: Rob Stierum
-    affiliation: 4
 affiliations:
   - name: Dept of Translational Genomics, NUTRIM, FHML, Maastricht University, Maastricht, NL
     index: 1
@@ -25,8 +33,12 @@ affiliations:
     index: 2
   - name: Seven Past Nine GmbH, Schopfheim, Germany
     index: 3
-  - name: The Netherlands Organisation for Applied Scientific Research TNO
+  - name: The Netherlands Organisation for Applied Scientific Research. Risk Analysis for Prevention, Innovation & Development, Utrecht, The Netherlands
     index: 4
+  - name: Institute of Environmental Medicine, Karolinska Institutet, Stockholm, Sweden
+    index: 5
+  - name: Department of Physical Chemistry, Palacký University Olomouc, Czech Republic
+    index: 6
 date: 29 May 2024
 cito-bibliography: paper.bib
 event: INTOXICOM
@@ -264,9 +276,9 @@ NON-ACADEMIC TOXICOLOGY/RISK ASSESSMENT IS CONSERVATIVE AND MATTERS WILL ONLY CH
 
 ## Funding
 
-This workshop was funded by the ELIXIR Europe INTOXICOM grant (Proposal ID: NL-2023-INTOXICOM). Participants acknowledge 
-funding from PARC (Grant agreement No. 101057014 and UKRI Grant No. 1752317),
+This workshop was funded by the ELIXIR Europe INTOXICOM grant (Grant No. NL-2023-INTOXICOM).
+Participants acknowledge funding from PARC (Grant agreement No. 101057014 and UKRI Grant No. 1752317),
 WorldFAIR (Grant agreement No. 101058393 and UKRI Grant No. 1831977 ) and
-PINK (Grant agreement No. 101137809 and UKRI Grant No. 10097944).
+PINK (Grant agreement No. 101137809) and UKRI Grant No. 10097944).
 
 ## References
