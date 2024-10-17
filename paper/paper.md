@@ -120,7 +120,7 @@ Table: Presentations at the workshop.
 | Iseult Lynch | FAIR data to support Chemical Risk Assessment & |
 |              | Regulation – the PARC approach for toxicological data |
 | Rob Stierum | Compact IDs - identified challenges |
-| Egon Willighagen | Introduction to hands-on session data FAIRification |
+| Egon Willighagen | Introduction to hands-on session data FAIRification [@Willighagen_2024] |
 | Penny Nymark | What is an Adverse Outcome Pathway? |
 | Clemens Wittwehr | Why Adverse Outcome Pathways need to be FAIR |
 | Marvin Martens | FAIR AOPs - identified challenges |
