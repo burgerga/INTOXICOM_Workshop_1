@@ -43,7 +43,7 @@ date: 29 May 2024
 cito-bibliography: paper.bib
 event: INTOXICOM
 biohackathon_name: "INTOXICOM Workshops"
-biohackathon_url:   "[https://biohackathon-europe.org/](https://elixir-europe.org/internal-projects/commissioned-services/integrating-toxicology-community)"
+biohackathon_url:   "https://elixir-europe.org/internal-projects/commissioned-services/integrating-toxicology-community"
 biohackathon_location: "Utrecht, 28-29 May 2024"
 group: Workshop 1
 git_url: https://github.com/BiGCAT-UM/INTOXICOM_Workshop_1
