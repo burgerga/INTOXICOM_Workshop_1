@@ -202,16 +202,23 @@ identifiers as keywords. The NanoCommons community made some progress with
 this ([https://nanocommons.github.io/datasets/](https://nanocommons.github.io/datasets/)),
 but annotating the data still needs to be done in a manual way.
 
+Regarding the community standards, reasons why data cannot be reused include
+scientific aspect as lack of community-accepted standards for testing, which
+should address experimental artifacts like batch effects and interlaboratory
+effects.
+
 The third challenge is a general incompleteness of ontologies  <!-- [RS: OR IS IT A BIT WIDER COMPARED TO ONTOLOGIES ONLY, THAT IS "DATA NOT MEETING COMMUNITY STANDARDS?" SEE ALSO MY REMARK ABOVE] -->. Finding ontology
 terms to be used for annotation of research output is non-trivial while the
 translation of ontology terms to identifiers are key to data consistency and 
-interoperability. As examples of this challenge the ontological annotation of
-biological assays and composite nanoamterials were discussed.
+interoperability. As examples of this challenge some challenges around ontological annotation of
+biological assays and composite nanomaterials were discussed. 
 
-Regarding the community standards, reasons why data cannot be reused include
-scientific aspect as lack of community-accepted standards for testing, which
-should address experimental artifacts like batch affects and interlaboratory
-effects.
+The discussion also covered the tradeoff between comprehensive ontological modeling, which allows reasoning to infer new links in data and achieve a more complete knowledge representation, and the complexity that setting up an ontology (or deciding on which ontologies to use) can introduce for certain projects. In many application-specific or short-term research efforts, representing knowledge in an ontology format can add unnecessary hurdles for researchers as opposed to simpler solutions like taxonomies or controlled vocabularies, especially if the reasoning capabilities of OWL ontologies can't be fully utilized within the project's scope and timeline. 
+
+This problem statement led to a recap of some instances of spreadsheet template-based workflows for ontology reuse and expansion within past and present projects in the INTOXICOM environment<!-- PARC iirc -->. Leveraging tools like the OBO foundry's ontology toolkit, ROBOT, allows for workflows that use adaptable templates to accommodate new data needs while building upon and remaining compatible with established ontolgies. These workflows, with their emphasis on iterative refinement and community involvement, can help include technical and non-technical researchers, leading to more applicable ontologies and allowing ontology developers to focus on the technical aspects of ontology engineering and development.
+
+<!-- based on my (Javier) understanding of Thomas's point about ontologies and what I can remember from our conversation-->For ontologies to become the cornerstone of FAIR metadata, there is a need to align perspectives between database-oriented thinking, which favors simpler relational models; metadata producers, who may find a lack of granularity in available terms if the ontology is too high-level; and ontology engineers, who must strike a balance between the precision of their logical models and their practical usability for metadata producers and consummers.
+
 
 ## FAIR-ification recipes
 
@@ -222,11 +229,17 @@ private: "Adding KE Component annotations in AOP-Wiki"
 "Metadata for cell-based assays using BAO" (see https://hackmd.io/@lusinke/rkXlvLXE0),
 and "Setting up imaging based confocal screening", (see https://hackmd.io/@danilyuktd/BkcBXvmEA).
 
+
 <!-- [RS CAN THE OWNERS OF THE RECEPIES PERHAPS PROVIDE SOME MORE DETAILS HERE, WITH SUGGESTION: TOGETHER WITH A REFLECTION ON HOW EASY IT WAS TO ADOPT THE FAIR COOKBOOK PRINCIPLE IN THEIR WORK?] -->
 
 <!-- EW: one is currently private and could maybe be made public. Second, we need
          Tooba and the rest of the FAIR Cookbook team to help the authors move
          forward. -->
+         
+### Metadata for cell-based assays
+
+This recipe, though still a draft, provides a starting point for the consistent and FAIR-compliant metadata annotation of cell-based bioassay types. The starting point is a review of biomedical ontologies and controlled vocabularies and the metadata areas they cover, from the biological aspects of assay samples to assay specifications and analysis-level metadata. The different metadata fields to be annotated with these semantic resources are then divided into required and recommended depending on whether they occur at least in two of the metadata standards enumerated in the recipe.
+
 
 ## FAIR Implementation profiles
 
