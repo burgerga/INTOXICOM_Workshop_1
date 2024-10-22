@@ -23,6 +23,9 @@ authors:
   - name: Dominik Martinát
     orcid: 0000-0001-6611-7883
     affiliation: 6
+  - name: Javier Millán Acosta
+    orcid: 0000-0002-4166-7093
+    affiliation: 1
   - name: Egon Willighagen
     orcid: 0000-0001-7542-0286
     affiliation: 1
