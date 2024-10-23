@@ -63,10 +63,9 @@ RS GENERAL REMARK: ADD SOME ILLUSTRATIONS? E.G. ON THE OUTCOME OF THE FAIR COOK 
 
 This document reports on the first workshop held by the ELIXIR
 Toxicology Community [@citesAsRecommendedReading:Martens2023ELIXIR]
-as part of the
-INTOXICOM Implementation Study workshop series [@citesAsEvidence:INTOXICOM],
+as part of the INTOXICOM Implementation Study workshop series [@citesAsEvidence:INTOXICOM],
 held in Utrecht on May 28 and 29 2024 [@citesAsEvidence:Aanmelder]. The topic of
-the meeting was the FAIRification of toxicological research output, including the exploration how
+the meeting was the FAIRification of toxicological research output, including the exploration of how
 ELIXIR resources may facilitate this. The meeting was organized by a team
 of ten people from the ELIXIR Toxicology Community: Marvin Martens, Penny Nymark,
 Iseult Lynch, Meike Bünger, Rob Stierum, Thomas Exner, Egon Willighagen, Ammar Ammar,
@@ -76,17 +75,17 @@ research or in making their data (more) FAIR, as well as data managers/stewards
 and researchers working with adverse outcome pathways (AOPs).
 
 The workshop included presentations and working sessions around various topics.
-The the first workshop within the INTOXICOM implementation study conssisted of two parts. The first part
+The first workshop within the INTOXICOM implementation study consisted of two parts. The first part
 of the workshop focussed on the application of FAIR solutions to toxicology databases
 and datasets. Part of this was describing the use of compact identifiers to link
 to specific records in databases in narratives such as project deliverables, e.g.
 in PARC [@citesForInformation:PARC].
 
-The second part adressed Adverse Outcome Pathways (AOPs) in the AOP-Wiki.
+The second part addressed Adverse Outcome Pathways (AOPs) in the AOP-Wiki.
 The workshop explored the FAIRification of AOPs and AOP-Wiki, making AOPs
 findable in more ways, and continues on the efforts of the CIAO project
 ([ciao-covid.net](https://ciao-covid.net/)) that assesses the FAIRness of
-AOPs [@citesForInformation:Carusi2023]. The output of this part would be the FAIR
+AOPs [@citesForInformation:Carusi2023]. The output of this part would be FAIR
 Implementation Profile for AOPs.
 
 The deliverables for the workshop include: 1. this report; 2. a FAIR Implementation Profile for AOPs; and 3.
@@ -102,7 +101,7 @@ and X people on the second day.
 Participants came from various universities (Karolinska Leiden, Maastricht, ...,
 Leibniz, and Birmingham),
 research institutes (TNO, EU-JRC, RIVM), regulators, and various ELIXIR Platforms.
-Furthermore, ongoing toxicology research projects in which attendees are involved in, and from which also data problems/challenges were identified prior to the workshop for giving direction, included VHP4Safety (https://vhp4safety.nl) [@VHP4Safety2024],
+Furthermore, ongoing toxicology research projects in which attendees are involved, and from which also data problems/challenges were identified prior to the workshop for giving direction, included VHP4Safety (https://vhp4safety.nl) [@VHP4Safety2024],
 PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/),
 <!-- [RS: OTHER PROJECTS AS WELL I RECALL FOR EXAMPLE (https://www.risk-hunt3r.eu/)) HOWEVER I CANNOT RETRIEVE FROM THE GOOGLE THE ORIGINAL INVENTORY OF DATA PROBLEMS WE DID PRIOR TO THE WORKSHOP, -->
 . In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
@@ -131,7 +130,7 @@ Table: Presentations at the workshop.
 | Iseult Lynch | Welcome to FIP.27.W.1 |
 | Penny Nymark | Data vs. metadata in an Adverse Outcome Pathway |
 
-To zoom in on the possible exploration of ELIXIR resources/tools/platforms as to the usefullness towards the toxicology research community, the first topic was the general FAIRification of research
+To zoom in on the possible exploration of ELIXIR resources/tools/platforms as to the usefulness towards the toxicology research community, the first topic was the general FAIRification of research
 output (a guiding definition is found in [@citesForInformation:Houweling2023]).
 A main aspect of this part of the workshop was around making data FAIR, considering the ambitions, and practical challenges. This part included a workshop
 discussion and writing a guidance document on making project reports more interoperable using compact identifiers.
@@ -148,9 +147,9 @@ FAIRsharing Toxicology Collection. This collection has been an ongoing collabora
 between the ELIXIR Toxicology Community and the FAIRsharing project, recently
 boosted by a FAIRsharing Community Champion project.
 
-The main focus of the second day was around the topic second hands-on session,
-FAIR Implementation Profiles (FIPs). These FIPs formalize a community partice
-or even standard that guides members of those community, and possible even
+The main focus of the second day was on the topic second hands-on session,
+FAIR Implementation Profiles (FIPs). These FIPs formalize a community practice
+or even standard that guides members of those communities, and possibly even
 outside that community, with minimal expectations and best practices. There is
 a DSWizard-based tool to create FIPs which has been used by the WorldFAIR
 project for ready-for-modelling datasets for nanoinformatics [@citesForInformation:WFFIP1] and
@@ -165,15 +164,15 @@ workshop.
 
 One of the goals of the workshop was to promote the use of compact identifiers
 in project reporting. Compact identifiers are short but meaningful references
-to identifiers for entities like proteins, gene, metabolites, nanomaterials.
+to identifiers for entities like proteins, genes, metabolites, and nanomaterials.
 A draft guidance document has been under development and is available at
 [https://github.com/egonw/compact-ids-in-reports](https://github.com/egonw/compact-ids-in-reports).
 
 ## FAIR standards and challenges
 
 One of the outcomes of the workshop comes from the discussions <!-- [RS: THE PREVIOUS SENTENCE IS A BIT GENERIC, AND IN A WAY LOGICAL ALREADY, HOW ABOUT: "With regards to FAIR standards and associated challenges, the participants discussed various aspects" -->. Whereas ELIXIR
-already provides many solution for FAIR, adoption in projects and communities
-is not trivial. PARC is adopting various solutions, invluding FIPs and FAIR
+already provides many solutions for FAIR, adoption in projects and communities
+is not trivial. PARC is adopting various solutions, including FIPs and FAIR
 Data Points (FDPs) [@citesAsRecommendedReading:Silva2022FAIR]. Community
 standards like IUCLID6 and the Toxic Process Ontology (TXPO) were mentioned <!-- [RS: THAT IS CORRECT, HOWEVER THESE ARE THEMSELVES NO FAIR STANDARDS YET AND AS SUCH ARE NO IMMEDIATE SOLUTIONS FOR FAIRIFICATION (OR ARE THEY?), IN THE END THESE RESOURCES MAY CONTRIBUTE TO FAIRNESS, AS IUCLID6 DEMANDS A STRUCTURED RECORING OF (META)DATA ACCORDING TO OECD HARMONZIED TEMPLATES) AND ONTOLOGIES ARE ALWAYS HELPFULL....] -->
 Other toxicology projects adopted solutions including repositories like the
@@ -182,7 +181,7 @@ was raised, including the Nano-InChI [@citesAsPotentialSolution:Lynch2020] and t
 (ERM) identifier [@citesAsPotentialSolution:VanRijn2022] as metadata for datasets to unequivocally indicate which chemicals are
 studied within these toxicology projects.
 
-Challenges the toxicology community faces include (1) incomplete interoperabilty,
+Challenges the toxicology community faces include (1) incomplete interoperability,
 (2) lack of adoption of unique identifiers, and (3) data that cannot be reused because
 it does not meet community standards. 
 
@@ -203,7 +202,7 @@ toxicology datasets. Better metadata of datasets with supporting unique identifi
 essential. It could be solved with compact identifiers in descriptions or
 identifiers as keywords. The NanoCommons community made some progress with
 this ([https://nanocommons.github.io/datasets/](https://nanocommons.github.io/datasets/)),
-but annotating the data still needs to be done in a manual way.
+but annotating the data still needs to be done manually.
 
 Regarding the community standards, reasons why data cannot be reused include
 scientific aspect as lack of community-accepted standards for testing, which
@@ -212,7 +211,7 @@ effects.
 
 The third challenge is a general incompleteness of ontologies  <!-- [RS: OR IS IT A BIT WIDER COMPARED TO ONTOLOGIES ONLY, THAT IS "DATA NOT MEETING COMMUNITY STANDARDS?" SEE ALSO MY REMARK ABOVE] -->. Finding ontology
 terms to be used for annotation of research output is non-trivial while the
-translation of ontology terms to identifiers are key to data consistency and 
+translation of ontology terms to identifiers is key to data consistency and 
 interoperability. As examples of this challenge some challenges around ontological annotation of
 biological assays and composite nanomaterials were discussed. 
 
@@ -223,7 +222,7 @@ This problem statement led to a recap of some instances of spreadsheet template-
 <!-- based on my (Javier) understanding of Thomas's point about ontologies and what I can remember from our conversation-->For ontologies to become the cornerstone of FAIR metadata, there is a need to align perspectives between database-oriented thinking, which favors simpler relational models; metadata producers, who may find a lack of granularity in available terms if the ontology is too high-level; and ontology engineers, who must strike a balance between the precision of their logical models and their practical usability for metadata producers and consummers.
 
 
-## FAIR-ification recipes
+## FAIRification recipes
 
 After an introduction to the concepts of the FAIR Cookbook, the workshop
 participants started three FAIR Cookbook recipes, of which one is currently
@@ -237,8 +236,9 @@ and "Setting up imaging based confocal screening", (see https://hackmd.io/@danil
 
 <!-- EW: one is currently private and could maybe be made public. Second, we need
          Tooba and the rest of the FAIR Cookbook team to help the authors move
-         forward. -->
-         
+         forward. 
+     TAD: I would be happy to help and onboard other people from the FAIR cookbook side    -->
+
 ### Metadata for cell-based assays
 
 This recipe, though still a draft, provides a starting point for the consistent and FAIR-compliant metadata annotation of cell-based bioassay types. The starting point is a review of biomedical ontologies and controlled vocabularies and the metadata areas they cover, from the biological aspects of assay samples to assay specifications and analysis-level metadata. The different metadata fields to be annotated with these semantic resources are then divided into required and recommended depending on whether they occur at least in two of the metadata standards enumerated in the recipe.
@@ -246,7 +246,7 @@ This recipe, though still a draft, provides a starting point for the consistent 
 
 ## FAIR Implementation profiles
 
-For the FAIR Implementation profiles we look at the FIP Wizard ([https://fip-wizard.ds-wizard.org/](https://fip-wizard.ds-wizard.org/)),
+For the FAIR Implementation profiles, we look at the FIP Wizard ([https://fip-wizard.ds-wizard.org/](https://fip-wizard.ds-wizard.org/)),
 following the choice made by WorldFAIR. During the workshop, two FIPs were
 started. The first FIP was developed for AOPs, ...
 
@@ -262,11 +262,11 @@ provided by ELIXIR Europe...
 # Discussion
 
 The workshop had a lively discussion and resulted in new output that feeds
-back into ELIXIR Toxicology Community (e.g. via this report) and via the
+back into the ELIXIR Toxicology Community (e.g. via this report) and via the
 FIPs, FAIR Cookbook recipes, and other outcomes back into the wider ELIXIR
 and toxicology communities.
 
-Remaining key challenges includes ...
+The remaining key challenges include...
 
 <!-- 
 
