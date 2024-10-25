@@ -272,10 +272,8 @@ This problem statement led to a recap of some instances of spreadsheet template-
 
 After an introduction to the concepts of the FAIR Cookbook, the workshop
 participants started three FAIR Cookbook recipes, of which one is currently
-private: "Adding KE Component annotations in AOP-Wiki"
-(private at  https://hackmd.io/@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR),
-"Metadata for cell-based assays using BAO" (see https://hackmd.io/@lusinke/rkXlvLXE0),
-and "Setting up imaging based confocal screening", (see https://hackmd.io/@danilyuktd/BkcBXvmEA).
+private: "Adding KE Component annotations in AOP-Wiki",
+"Metadata for cell-based assays using BAO", and "Setting up imaging based confocal screening".
 
 
 <!-- [RS CAN THE OWNERS OF THE RECEPIES PERHAPS PROVIDE SOME MORE DETAILS HERE, WITH SUGGESTION: TOGETHER WITH A REFLECTION ON HOW EASY IT WAS TO ADOPT THE FAIR COOKBOOK PRINCIPLE IN THEIR WORK?] -->
@@ -289,7 +287,9 @@ and "Setting up imaging based confocal screening", (see https://hackmd.io/@danil
 
 In a breakout session covering FAIR Cookbook recipes, one group drafted the initial <!-- [names of breakout session members here?]  -->
 version of a recipe for AOP developers to aid in complying with the guidelines outlined on p. 28 of [@OECD2018],
-under the heading "KE Components and Biological Context". This involves the proper annotation of Key Event
+under the heading "KE Components and Biological Context"
+([https://hackmd.io/@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR](https://hackmd.io/@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR)).
+This involves the proper annotation of Key Event
 Components with appropriate ontology terms. Current experience indicates that AOP developers often avoid this
 task due to its perceived complexity. The recipe aims to mitigate this challenge by providing step-by-step
 guidance. Once AOP developers realize the simplicity of adding ontology terms, they will also recognize the
@@ -300,8 +300,16 @@ recipe into the FAIR Cookbook and referencing it in the AOP-Wiki guidance and he
 
 ### Metadata for cell-based assays
 
-This recipe, though still a draft, provides a starting point for the consistent and FAIR-compliant metadata annotation of cell-based bioassay types. The starting point is a review of biomedical ontologies and controlled vocabularies and the metadata areas they cover, from the biological aspects of assay samples to assay specifications and analysis-level metadata. The different metadata fields to be annotated with these semantic resources are then divided into required and recommended depending on whether they occur at least in two of the metadata standards enumerated in the recipe.
+This recipe, though still a draft, provides a starting point for the consistent and FAIR-compliant metadata annotation of cell-based bioassay types ([https://hackmd.io/@lusinke/rkXlvLXE0](https://hackmd.io/@lusinke/rkXlvLXE0)). The starting point is a review of biomedical ontologies and controlled vocabularies and the metadata areas they cover, from the biological aspects of assay samples to assay specifications and analysis-level metadata. The different metadata fields to be annotated with these semantic resources are then divided into required and recommended depending on whether they occur at least in two of the metadata standards enumerated in the recipe.
 
+### Setting up imaging based confocal screening
+
+The third recipe is about standardized protocols for reproducible imaging of eGFP-tagged hiPSC reporter lines
+([https://hackmd.io/MBKglLL3Ri6uiodo46VbJg?both](https://hackmd.io/MBKglLL3Ri6uiodo46VbJg?both)).
+This recipe outlines the essential components required to create a **minimal imaging dataset** that enables
+validation of functional reproducibility of fluorescent eGFP hiPSC reporter lines using confocal imaging
+**across collaborative project partners**. It covers nine points, including a reference compound
+set, metadata, imaging settings, raw data deposition, quality control, and more.
 
 ## FAIR Implementation profiles
 
@@ -344,9 +352,9 @@ NON-ACADEMIC TOXICOLOGY/RISK ASSESSMENT IS CONSERVATIVE AND MATTERS WILL ONLY CH
 
 -->
 
-## Acknowledgements
+<!-- ## Acknowledgements
 
-...
+... -->
 
 ## Funding
 
