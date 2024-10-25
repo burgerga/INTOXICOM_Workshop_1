@@ -162,14 +162,14 @@ work. Table 1 gives an overview of the presentations.
 Table: Presentations at the workshop.
 
 | Speaker | Talk Title  |
-| ---- | -------- |
+| --- | -------- |
 | David Lloyd | ELIXIR Introduction |
 | Marvin Martens | ELIXIR Toxicology Community |
 | Iseult Lynch | FAIR data to support Chemical Risk Assessment & Regulation – the PARC approach for toxicological data |
 | Rob Stierum | Compact IDs - identified challenges |
 | Egon Willighagen | Introduction to hands-on session data FAIRification [@Willighagen_2024] |
 | Penny Nymark | What is an Adverse Outcome Pathway? [@Nymark_2024] |
-| Clemens Wittwehr | Why Adverse Outcome Pathways need to be FAIR |
+| Clemens Wittwehr | Why Adverse Outcome Pathways need to be FAIR [@Wittwehr2024] |
 | Marvin Martens | FAIR AOPs - identified challenges |
 | Ulrike Wittig | ELIXIR Data Platform |
 | Marvin Martens | FAIRsharing Toxicology Collection |
@@ -284,6 +284,19 @@ and "Setting up imaging based confocal screening", (see https://hackmd.io/@danil
          Tooba and the rest of the FAIR Cookbook team to help the authors move
          forward. 
      TAD: I would be happy to help and onboard other people from the FAIR cookbook side    -->
+
+### Adding KE Component annotations in AOP-Wiki
+
+In a breakout session covering FAIR Cookbook recipes, one group drafted the initial <!-- [names of breakout session members here?]  -->
+version of a recipe for AOP developers to aid in complying with the guidelines outlined on p. 28 of [@OECD2018],
+under the heading "KE Components and Biological Context". This involves the proper annotation of Key Event
+Components with appropriate ontology terms. Current experience indicates that AOP developers often avoid this
+task due to its perceived complexity. The recipe aims to mitigate this challenge by providing step-by-step
+guidance. Once AOP developers realize the simplicity of adding ontology terms, they will also recognize the
+enhanced visibility of their AOPs when searched by these terms. Additionally, the broader adoption of
+ontologies in the AOP domain could facilitate the semi-automatic formation of AOP networks and the
+identification of overlapping or redundant Key Event Entries. The next step involves incorporating the
+recipe into the FAIR Cookbook and referencing it in the AOP-Wiki guidance and help system.
 
 ### Metadata for cell-based assays
 
