@@ -26,7 +26,7 @@ authors:
   - name: Javier Millán Acosta
     orcid: 0000-0002-4166-7093
     affiliation: 1
-  - name: Ulrike Wittig
+  - name: Ulrike&nbsp;Wittig
     orcid: 0000-0002-9077-5664
     affiliation: 7
   - name: Clemens Wittwehr
@@ -38,7 +38,7 @@ authors:
   - name: Gerhard Burger
     orcid: 0000-0003-1062-5576
     affiliation: 10
-  - name: Tooba Abbassi-Daloii
+  - name: Tooba&nbsp;Abbassi-Daloii
     orcid: 0000-0002-4904-3269
     affiliation: 1
   - name: Uday Killi
@@ -47,7 +47,7 @@ authors:
   - name: Jente Houweling
     orcid: 0009-0005-3680-0645
     affiliation: 1, 13
-  - name: Riju Roy Chowdhury
+  - name: Riju&nbsp;Roy&nbsp;Chowdhury
     orcid: 0009-0002-4110-241X
     affiliation: 14
   - name: Tamara Danilyuk
