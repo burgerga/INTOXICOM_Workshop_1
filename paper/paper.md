@@ -26,6 +26,36 @@ authors:
   - name: Javier Millán Acosta
     orcid: 0000-0002-4166-7093
     affiliation: 1
+  - name: Ulrike Wittig
+    orcid: 0000-0002-9077-5664
+    affiliation: 7
+  - name: Clemens Wittwehr
+    orcid: 0000-0003-2760-7702
+    affiliation: 8
+  - name: Meike Bunger
+    orcid: 0009-0002-7664-0058
+    affiliation: 9
+  - name: Gerhard Burger
+    orcid: 0000-0003-1062-5576
+    affiliation: 10
+  - name: Tooba Abbassi-Daloii
+    orcid: 0000-0002-4904-3269
+    affiliation: 1
+  - name: Uday Killi
+    orcid: 0000-0001-6267-7541
+    affiliation: 11, 12
+  - name: Jente Houweling
+    orcid: 0009-0005-3680-0645
+    affiliation: 1, 13
+  - name: Riju Roy Chowdhury
+    orcid: 0009-0002-4110-241X
+    affiliation: 14
+  - name: Tamara Danilyuk
+    orcid: 0000-0001-6125-6147
+    affiliation: 10
+  - name: Lucy Sinke
+    orcid:
+    affiliation: 
   - name: Egon Willighagen
     orcid: 0000-0001-7542-0286
     affiliation: 1
@@ -42,6 +72,22 @@ affiliations:
     index: 5
   - name: Department of Physical Chemistry, Palacký University Olomouc, CZ
     index: 6
+  - name: Heidelberg Institute for Theoretical Studies, Heidelberg, Germany
+    index: 7
+  - name: European Commission, Joint Research Centre (JRC), Ispra, Italy
+    index: 8
+  - name: Stichting Health-RI, Utrecht, The Netherlands
+    index: 9
+  - name: Leiden Academic Centre for Drug Research (LACDR), Leiden University, Leiden, The Netherlands
+    index: 10
+  - name: University of Eastern Finland, Finland
+    index: 11
+  - name: University of South Bohemia, Czech Republic
+    index: 12
+  - name: RIVM, Bilthoven, Netherlands
+    index: 13
+  - name: IUF – Leibniz Research Institute for Environmental Medicine, Düsseldorf, Germany
+    index: 14
 date: 29 May 2024
 cito-bibliography: paper.bib
 event: INTOXICOM
