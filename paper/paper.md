@@ -306,7 +306,7 @@ This recipe, though still a draft, provides a starting point for the consistent 
 ## FAIR Implementation profiles
 
 For the FAIR Implementation profiles, we look at the FIP Wizard
-([https://fip-wizard.ds-wizard.org/](https://fip-wizard.ds-wizard.org/)),
+([https://fip-wizard.ds-wizard.org/](https://fip-wizard.ds-wizard.org/), [@Magagna2022]),
 following the choice made by WorldFAIR. During the workshop [@RAa-SA1rYr], two FIPs were
 started. The first FIP was developed for AOPs, ...
 
