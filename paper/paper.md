@@ -184,8 +184,9 @@ This part was followed by a hands-on session around FAIRificiation recipes in
 the ELIXIR FAIR Cookbook [@RoccaSerra2023]. The selection of data challenges/topics for this session was based upon topics identified from the Research Projects mentioned above, as well as during the preparatory webinar series.
 
 The first day ended with a third topic, around making adverse outcome pathways
-(AOPs) more FAIR, continuing on earlier work by the CIAO project <!-- [RS: HYPERLINK NEEDED] --> and feeding
-into the continued development of the AOP-Wiki.
+(AOPs) more FAIR, continuing on earlier work by the CIAO project 
+([https://www.ciao-covid.net/](https://www.ciao-covid.net/))
+and feeding into the continued development of the AOP-Wiki.
 
 The second day started with a session on the ELIXIR Data Platform and the
 FAIRsharing Toxicology Collection. This collection has been an ongoing collaboration
@@ -215,7 +216,8 @@ A draft guidance document has been under development and is available at
 
 ## FAIR standards and challenges
 
-One of the outcomes of the workshop comes from the discussions <!-- [RS: THE PREVIOUS SENTENCE IS A BIT GENERIC, AND IN A WAY LOGICAL ALREADY, HOW ABOUT: "With regards to FAIR standards and associated challenges, the participants discussed various aspects" -->. Whereas ELIXIR
+With regards to FAIR standards and associated challenges, the participants discussed various aspects
+on how to make research output more reused. Whereas ELIXIR
 already provides many solutions for FAIR, adoption in projects and communities
 is not trivial. PARC is adopting various solutions, including FIPs and FAIR
 Data Points (FDPs) [@citesAsRecommendedReading:Silva2022FAIR]. Community
@@ -234,7 +236,7 @@ it does not meet community standards.
 [RS NOT CLEAR HOW THE TEXT ABOVE RELATES TO BELOW. ABOVE YOU MENTION 3 CHALLENGES (1) INCOMPLETE INTEROPERABILITY; (2) LACK OF ADOPTION OF UNIQUE IDENTIFIERS; (2) DATA NOT MEETING COMMUNITY STANDARDS. BELOW YOU MENTION AGAIN 3 DATA CHALLENGES, FOR WHICH THE FIRST TWO ARE THE SAME AS ABOVE, I UNDERSTAND THIS. HOWEVER, THE THIRD CHALLENGE MENTIONED BELOW IS ABOUT ONTOLOGIES WHICH IS NOT NECESSARILY THE SAME AS MEETING COMMUNITY STANDARDS, OR IS THIS WHAT YOU MEAN: E.G. IUCLID IS AN ECHA STANDARD BUT NOT AN ONTOLOGY PER SE, CAN YOU CLARIFY?] 
 -->
 
-Below, these three specific identified challenges, for which follow up is to be relevant for the toxicology community, are explained in more detail.
+Below, three specific identified challenges, for which follow up is to be relevant for the toxicology community, are explained in more detail.
 
 
 The first is the fact that the BioStudies web interface <!-- [RS THIS IS A VERY SPECIFIC CHALLENGE SPECIFICALLY FOR AN ELIXIR INFRASTRUCTURE COMPONENT, WHICH FITS THE WORKSHOP IDEA. IT FALLS UNDER THE MORE GENERIC CHALLENGE OF "INCOMPLETE INTEROPERABILITY" BUT SOMEHWERE WE NEED TO MENTION THE TRANSITION IN THE TEXT FROM THE  OBSERVATION THAT INTEROPERABILITY IS AN ISSUE IN GENERAL, TO THIS SPECIFIC ELIXIR EXAMPLE. OR AM I WRONG AND WAS THIS (BIOSTUDIES) IN FACT THE VERY SPECIFIC DATA CHALLENGE IDENTIFIED FROM ONE OF THE TOXICOLOGY PROJECTS?] -->
@@ -254,7 +256,8 @@ scientific aspect as lack of community-accepted standards for testing, which
 should address experimental artifacts like batch effects and interlaboratory
 effects.
 
-The third challenge is a general incompleteness of ontologies  <!-- [RS: OR IS IT A BIT WIDER COMPARED TO ONTOLOGIES ONLY, THAT IS "DATA NOT MEETING COMMUNITY STANDARDS?" SEE ALSO MY REMARK ABOVE] -->. Finding ontology
+The third challenge is a general incompleteness of ontologies. <!-- [RS: OR IS IT A BIT WIDER COMPARED TO ONTOLOGIES ONLY, THAT IS "DATA NOT MEETING COMMUNITY STANDARDS?" SEE ALSO MY REMARK ABOVE] -->
+Finding ontology
 terms to be used for annotation of research output is non-trivial while the
 translation of ontology terms to identifiers is key to data consistency and 
 interoperability. As examples of this challenge some challenges around ontological annotation of
@@ -287,7 +290,7 @@ private: "Adding KE Component annotations in AOP-Wiki",
 In a breakout session covering FAIR Cookbook recipes, one group drafted the initial <!-- [names of breakout session members here?]  -->
 version of a recipe for AOP developers to aid in complying with the guidelines outlined on p. 28 of [@OECD2018],
 under the heading "KE Components and Biological Context"
-([https://hackmd.io/@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR](https://hackmd.io/@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR)).
+([https://hackmd.io/\@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR](https://hackmd.io/\@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR)).
 This involves the proper annotation of Key Event
 Components with appropriate ontology terms. Current experience indicates that AOP developers often avoid this
 task due to its perceived complexity. The recipe aims to mitigate this challenge by providing step-by-step
@@ -299,7 +302,7 @@ recipe into the FAIR Cookbook and referencing it in the AOP-Wiki guidance and he
 
 ### Metadata for cell-based assays
 
-This recipe, though still a draft, provides a starting point for the consistent and FAIR-compliant metadata annotation of cell-based bioassay types ([https://hackmd.io/@lusinke/rkXlvLXE0](https://hackmd.io/@lusinke/rkXlvLXE0)). The starting point is a review of biomedical ontologies and controlled vocabularies and the metadata areas they cover, from the biological aspects of assay samples to assay specifications and analysis-level metadata. The different metadata fields to be annotated with these semantic resources are then divided into required and recommended depending on whether they occur at least in two of the metadata standards enumerated in the recipe.
+This recipe, though still a draft, provides a starting point for the consistent and FAIR-compliant metadata annotation of cell-based bioassay types ([https://hackmd.io/\@lusinke/rkXlvLXE0](https://hackmd.io/\@lusinke/rkXlvLXE0)). The starting point is a review of biomedical ontologies and controlled vocabularies and the metadata areas they cover, from the biological aspects of assay samples to assay specifications and analysis-level metadata. The different metadata fields to be annotated with these semantic resources are then divided into required and recommended depending on whether they occur at least in two of the metadata standards enumerated in the recipe.
 
 ### Setting up imaging based confocal screening
 
@@ -315,14 +318,35 @@ set, metadata, imaging settings, raw data deposition, quality control, and more.
 For the FAIR Implementation profiles, we look at the FIP Wizard
 ([https://fip-wizard.ds-wizard.org/](https://fip-wizard.ds-wizard.org/), [@Magagna2022]),
 following the choice made by WorldFAIR. During the workshop [@RAa-SA1rYr], two FIPs were
-started. The first FIP was developed for AOPs, ...
+started. The first FIP was developed for AOPs and the second FIP was developed for 
+toxiconomics. Generally, filling out the FIP template was not found to be easy
+and both FIPs left a lot of questions open.
 
+### Adverse Outcome Pathways FIP
+
+The AOP FIP is based on the work done by AOP-Wiki. For example, metadata used
+by the AOP-Wiki include an identifier, a title, a contact point, and a license.
+For the interoperability, ontologies like PROV-O [@Sahoo2013], Cell Ontology [@Diehl2016],
+and UBERION ([https://uberon.github.io/](https://uberon.github.io/)) were discussed.
+
+### Toxicogenomics FIP
+
+The toxicogenomics FIP derived from experience from the participants. Some projects
+have previously already used resources like BioStudies [@Sarkans2018], ArrayExpress, and 
+the European Nucleotide Archive [@Burgin2023] and matching identifier like
+the BioStudies Accession number, DOI, and ORCID. ISA-Tab [@RoccaSerra2009] is mentioned as
+format, along with the more general CSV, TSV, and JSON. Ddatasets have already been
+indexed by Google Dataset Search and Wikidata. Ontologies that were mentioned
+include the Chemical Entities of Biological Interest [@deMatos2010], Gene Ontology, and 
+Experimental Factor Ontology (EFO) [@Malone2010].
+
+<!--
   https://docs.google.com/spreadsheets/d/1Bc7sCERl7FIJxm8wp7wz3vzZdnNaf-6N_8pn_xFMQyM/edit?usp=drive_link
-
-The second FIP was developed for <!-- [RS: TOXICOGENOMICS //] --> transcriptomics data, based on solutions
-provided by ELIXIR Europe...
-
+  
+    -> moved to https://docs.google.com/spreadsheets/d/1nNxdR8cWhcQq-9xWnA1QRo9gWcTxqz8W/edit?gid=1113123974#gid=1113123974
+  
   https://docs.google.com/spreadsheets/d/1yNEYzJRbx10RkuqJmLcO7RPOq-nrimUKQLQW6uWzfho/edit?usp=sharing
+--> 
 
 <!-- [RS: SOME ADDITIONAL TEXT NEEDED INCLUDING USER EXPERIENCES HOW TO USE THE CONCEPT OF ESTABLISHING A FIP] -->
 
@@ -330,10 +354,16 @@ provided by ELIXIR Europe...
 
 The workshop had a lively discussion and resulted in new output that feeds
 back into the ELIXIR Toxicology Community (e.g. via this report) and via the
-FIPs, FAIR Cookbook recipes, and other outcomes back into the wider ELIXIR
-and toxicology communities.
+two FIPs, three FAIR Cookbook recipes, and other outcomes back into the wider ELIXIR
+and toxicology communities. Both the recipes and the cookbook need further work,
+and, more importantly, adoption by toxicologists.
+Of course, the workshop was relatively short to complete output as it set out to
+do. This is reflected in by the nature of the cited results, and for the FIPs
+there are not even tangible results that can be linked to, at the time of writing.
 
-The remaining key challenges include...
+This limitation was anticipated and results will be picked up by the participants and
+followed up in the second INTOXICOM workshop. This report will allow follow up
+work to acknowledge the input from this workshop by citing this paper.
 
 <!-- 
 
