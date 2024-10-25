@@ -56,7 +56,7 @@ authors:
   - name: Lucy Sinke
     orcid:
     affiliation: 
-  - name: Egon Willighagen
+  - name: Egon&nbsp;Willighagen
     orcid: 0000-0001-7542-0286
     affiliation: 1
 affiliations:
@@ -162,7 +162,7 @@ work. Table 1 gives an overview of the presentations.
 Table: Presentations at the workshop.
 
 | Speaker | Talk Title  |
-| -------- | -------- |
+| ---- | -------- |
 | David Lloyd | ELIXIR Introduction |
 | Marvin Martens | ELIXIR Toxicology Community |
 | Iseult Lynch | FAIR data to support Chemical Risk Assessment & Regulation – the PARC approach for toxicological data |
