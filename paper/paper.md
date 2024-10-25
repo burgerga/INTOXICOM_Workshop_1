@@ -1,6 +1,6 @@
 ---
 title: 'INTOXICOM Workshop Report: FAIRification of Toxicological Research Output: Leveraging ELIXIR Resources'
-title_short: 'INTOXICOM #1: unknown chemical substances'
+title_short: 'INTOXICOM #1: FAIRification of Toxicological Research Output'
 tags:
   - toxicology
   - ELIXIR Europe
@@ -134,24 +134,23 @@ findable in more ways, and continues on the efforts of the CIAO project
 AOPs [@citesForInformation:Carusi2023]. The output of this part would be FAIR
 Implementation Profile for AOPs.
 
-The deliverables for the workshop include: 1. this report; 2. a FAIR Implementation Profile for AOPs; and 3.
-a proposed standard on how to use compact identifiers on project reports.
-
-This report describes the outcome of the workshop, provides links to presentations (when applicable), and discusses the hands-on work done including emerging results.
+The deliverables for the workshop include: 1. this report; 2. a FAIR Implementation Profile (FIP)
+for AOPs; and 3. a proposed standard on how to use compact identifiers on project reports.
+This report describes the outcome of the workshop, provides links to presentations (when
+applicable), and discusses the hands-on work done including emerging results.
 
 # The workshop
 
 The workshop was attended in person in Utrecht (The Netherlands) by 16 people on the first day,
-with two people giving an online presentation, <!-- [RS: HOW MANY PARTICIPATED ONLINE ??] -->
-and X people on the second day.
-Participants came from various universities (Karolinska Leiden, Maastricht, ...,
-Leibniz, and Birmingham),
+with two people giving an online presentation. <!-- [RS: HOW MANY PARTICIPATED ONLINE ??] -->
+Participants came from various universities (Karolinska Institutet, Leiden,
+Maastricht, Olomouc, Eastern Finland, and Birmingham),
 research institutes (TNO, EU-JRC, RIVM), regulators, and various ELIXIR Platforms.
 Furthermore, ongoing toxicology research projects in which attendees are involved, and from which also data problems/challenges were identified prior to the workshop for giving direction, included VHP4Safety (https://vhp4safety.nl) [@VHP4Safety2024],
-PARC (https://www.eu-parc.eu/), PINK (https://pink-project.eu/),
+PARC (https://www.eu-parc.eu/), and PINK (https://pink-project.eu/).
 <!-- [RS: OTHER PROJECTS AS WELL I RECALL FOR EXAMPLE (https://www.risk-hunt3r.eu/)) HOWEVER I CANNOT RETRIEVE FROM THE GOOGLE THE ORIGINAL INVENTORY OF DATA PROBLEMS WE DID PRIOR TO THE WORKSHOP, -->
-. In terms of geographical distribution, participants came from The Netherlands, Italy, UK, Germany,
-Czechia, and Sweden.
+In terms of geographical distribution, participants came from The Netherlands,
+Finland, Italy, UK, Germany, Czechia, and Sweden.
 
 ## Presentations
 
