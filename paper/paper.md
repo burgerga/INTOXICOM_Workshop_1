@@ -294,5 +294,6 @@ This workshop was funded by the ELIXIR Europe INTOXICOM grant (Grant No. NL-2023
 Participants acknowledge funding from PARC (Grant agreement No. 101057014 and UKRI Grant No. 1752317),
 WorldFAIR (Grant agreement No. 101058393 and UKRI Grant No. 1831977 ) and
 PINK (Grant agreement No. 101137809) and UKRI Grant No. 10097944).
+The VHP4Safety project is funded by the Netherlands Research Council (NWO) (Grant No. NWA-ORC 1292.19.272).
 
 ## References
