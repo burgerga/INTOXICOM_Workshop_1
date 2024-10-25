@@ -4,6 +4,7 @@ title_short: 'INTOXICOM #1: FAIRification of Toxicological Research Output'
 tags:
   - toxicology
   - ELIXIR Europe
+  - FAIR
 authors:
   - name: Marvin Martens
     orcid: 0000-0003-2230-0840
