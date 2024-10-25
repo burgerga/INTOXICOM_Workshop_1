@@ -165,7 +165,7 @@ Table: Presentations at the workshop.
 | --- | -------- |
 | David Lloyd | ELIXIR Introduction |
 | Marvin Martens | ELIXIR Toxicology Community |
-| Iseult Lynch | FAIR data to support Chemical Risk Assessment & Regulation – the PARC approach for toxicological data |
+| Iseult Lynch | FAIR data to support Chemical Risk Assessment & Regulation – the PARC approach for toxicological data [@Lynch2024] |
 | Rob Stierum | Compact IDs - identified challenges |
 | Egon Willighagen | Introduction to hands-on session data FAIRification [@Willighagen_2024] |
 | Penny Nymark | What is an Adverse Outcome Pathway? [@Nymark_2024] |
@@ -173,7 +173,7 @@ Table: Presentations at the workshop.
 | Marvin Martens | FAIR AOPs - identified challenges |
 | Ulrike Wittig | ELIXIR Data Platform |
 | Marvin Martens | FAIRsharing Toxicology Collection |
-| Iseult Lynch | Welcome to FIP.27.W.1 |
+| Iseult Lynch | Welcome to FIP.27.W.1 [@Lynch2024b] |
 | Penny Nymark | Data vs. metadata in an Adverse Outcome Pathway |
 
 To zoom in on the possible exploration of ELIXIR resources/tools/platforms as to the usefulness towards the toxicology research community, the first topic was the general FAIRification of research
@@ -305,8 +305,9 @@ This recipe, though still a draft, provides a starting point for the consistent 
 
 ## FAIR Implementation profiles
 
-For the FAIR Implementation profiles, we look at the FIP Wizard ([https://fip-wizard.ds-wizard.org/](https://fip-wizard.ds-wizard.org/)),
-following the choice made by WorldFAIR. During the workshop, two FIPs were
+For the FAIR Implementation profiles, we look at the FIP Wizard
+([https://fip-wizard.ds-wizard.org/](https://fip-wizard.ds-wizard.org/)),
+following the choice made by WorldFAIR. During the workshop [@RAa-SA1rYr], two FIPs were
 started. The first FIP was developed for AOPs, ...
 
   https://docs.google.com/spreadsheets/d/1Bc7sCERl7FIJxm8wp7wz3vzZdnNaf-6N_8pn_xFMQyM/edit?usp=drive_link
