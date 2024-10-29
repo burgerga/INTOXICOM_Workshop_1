@@ -259,11 +259,7 @@ This problem statement led to a recap of some instances of spreadsheet template-
 
 ## FAIRification recipes
 
-After an introduction to the concepts of the FAIR Cookbook, the workshop
-participants started three FAIR Cookbook recipes, of which one is currently
-private: "Adding KE Component annotations in AOP-Wiki",
-"Metadata for cell-based assays using BAO", and "Setting up imaging based confocal screening".
-
+Following an introduction to the FAIR Cookbook concepts, the workshop participants collaborated to develop three new FAIRification recipes, with one currently in private status: "Adding KE Component annotations in AOP-Wiki", "Metadata for cell-based assays using BAO", and "Setting up imaging based confocal screening". These recipe drafts are designed to support the toxicology community in implementing FAIR principles in specific data contexts.
 
 <!-- [RS CAN THE OWNERS OF THE RECEPIES PERHAPS PROVIDE SOME MORE DETAILS HERE, WITH SUGGESTION: TOGETHER WITH A REFLECTION ON HOW EASY IT WAS TO ADOPT THE FAIR COOKBOOK PRINCIPLE IN THEIR WORK?] -->
 
@@ -274,18 +270,12 @@ private: "Adding KE Component annotations in AOP-Wiki",
 
 ### Adding KE Component annotations in AOP-Wiki
 
-In a breakout session covering FAIR Cookbook recipes, one group consisting of Clemens Wittwehr, Penny Nymark, and Marvin Martens, drafted the initial version of a recipe for AOP developers to aid in complying with the guidelines outlined on p. 28 of [@OECD2018],
-under the heading "KE Components and Biological Context"
+One group, consisting of Clemens Wittwehr, Penny Nymark, and Marvin Martens, drafted an initial version of a recipe intended to guide AOP developers in annotating Key Event (KE) Components [@Ives2017] in line with the guidelines outlined on p. 28 of [@OECD2018],
+under "KE Components and Biological Context"
 ([https://hackmd.io/\@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR](https://hackmd.io/\@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR)).
-This involves the proper annotation of Key Event Components with appropriate ontology terms [@Ives2017]. 
-Current experience indicates that AOP developers often avoid this
-task due to its perceived complexity. The recipe aims to mitigate this challenge by providing step-by-step
-guidance to select a fitting ontology term. Once AOP developers realize the utility of Key Event Components and the 
-simplicity of adding ontology terms, they will also recognize the
-enhanced visibility of their AOPs when searched by these terms. Additionally, the broader adoption of
-ontologies in the AOP domain could facilitate the semi-automatic formation of AOP networks and the
-identification of overlapping or redundant Key Event entries in the AOP-Wiki. The next step involves incorporating the
-recipe into the FAIR Cookbook and referencing it in the AOP-Wiki guidance and help system.
+This recipe provides step-by-step instructions on choosing appropriate ontology terms to improve KE Component annotation. Current experience indicates that AOP developers often found the process of KE annotation to be complex, which causes the lack of utilisation. This new recipe aims to streamline the process, making it easier to select and apply ontology terms. Proper KE Component annotation enhances AOP discoverability, and broader use of ontologies in AOP-Wiki could support the semi-automated generation of AOP networks and help identify redundant or overlapping KEs. 
+
+The next steps include integrating the "Adding KE Compoonent Annotations in AOP-Wiki" recipe into the FAIR Cookbook, with plans to reference it in the AOP-Wiki's guidance. Further support from the FAIR Cookbook team will facilitate the adoption and refinement of these recipes, promoting their utility across the toxicology community.
 
 ### Metadata for cell-based assays
 
