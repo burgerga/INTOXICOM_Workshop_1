@@ -164,15 +164,15 @@ Table: Presentations at the workshop.
 | Speaker | Talk Title  |
 | --- | -------- |
 | David Lloyd | ELIXIR Introduction |
-| Marvin Martens | ELIXIR Toxicology Community |
+| Marvin Martens | ELIXIR Toxicology Community [@martens_2024_14005367]|
 | Iseult Lynch | FAIR data to support Chemical Risk Assessment & Regulation – the PARC approach for toxicological data [@Lynch2024] |
 | Rob Stierum | Compact IDs - identified challenges |
 | Egon Willighagen | Introduction to hands-on session data FAIRification [@Willighagen_2024] |
 | Penny Nymark | What is an Adverse Outcome Pathway? [@Nymark_2024] |
 | Clemens Wittwehr | Why Adverse Outcome Pathways need to be FAIR [@Wittwehr2024] |
-| Marvin Martens | FAIR AOPs - identified challenges |
+| Marvin Martens | FAIR AOPs - identified challenges [@martens_2024_14005454]|
 | Ulrike Wittig | ELIXIR Data Platform |
-| Marvin Martens | FAIRsharing Toxicology Collection |
+| Marvin Martens | FAIRsharing Toxicology Collection [@martens_2024_14005493]|
 | Iseult Lynch | Welcome to FIP.27.W.1 [@Lynch2024b] |
 | Penny Nymark | Data vs. metadata in an Adverse Outcome Pathway |
 
