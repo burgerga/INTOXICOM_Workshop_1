@@ -270,7 +270,7 @@ Following an introduction to the FAIR Cookbook concepts, the workshop participan
 
 ### Adding KE Component annotations in AOP-Wiki
 
-One group, consisting of Clemens Wittwehr, Penny Nymark, and Marvin Martens, drafted an initial version of a recipe intended to guide AOP developers in annotating Key Event (KE) Components [@Ives2017] in line with the guidelines outlined on p. 28 of [@OECD2018],
+One group, consisting of Clemens Wittwehr, Penny Nymark, Thomas Exner, and Marvin Martens, drafted an initial version of a recipe intended to guide AOP developers in annotating Key Event (KE) Components [@Ives2017] in line with the guidelines outlined on p. 28 of [@OECD2018],
 under "KE Components and Biological Context"
 ([https://hackmd.io/\@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR](https://hackmd.io/\@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR)).
 This recipe provides step-by-step instructions on choosing appropriate ontology terms to improve KE Component annotation. Current experience indicates that AOP developers often found the process of KE annotation to be complex, which causes the lack of utilisation. This new recipe aims to streamline the process, making it easier to select and apply ontology terms. Proper KE Component annotation enhances AOP discoverability, and broader use of ontologies in AOP-Wiki could support the semi-automated generation of AOP networks and help identify redundant or overlapping KEs. 
