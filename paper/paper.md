@@ -288,17 +288,17 @@ private: "Adding KE Component annotations in AOP-Wiki",
 
 ### Adding KE Component annotations in AOP-Wiki
 
-In a breakout session covering FAIR Cookbook recipes, one group drafted the initial <!-- [names of breakout session members here?]  -->
-version of a recipe for AOP developers to aid in complying with the guidelines outlined on p. 28 of [@OECD2018],
+In a breakout session covering FAIR Cookbook recipes, one group consisting of Clemens Wittwehr, Penny Nymark, and Marvin Martens, drafted the initial version of a recipe for AOP developers to aid in complying with the guidelines outlined on p. 28 of [@OECD2018],
 under the heading "KE Components and Biological Context"
 ([https://hackmd.io/\@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR](https://hackmd.io/\@WBu-yMi5R62T6i7YA3RGVA/BJtnqIQVR)).
-This involves the proper annotation of Key Event
-Components with appropriate ontology terms. Current experience indicates that AOP developers often avoid this
+This involves the proper annotation of Key Event Components with appropriate ontology terms [@Ives2017]. 
+Current experience indicates that AOP developers often avoid this
 task due to its perceived complexity. The recipe aims to mitigate this challenge by providing step-by-step
-guidance. Once AOP developers realize the simplicity of adding ontology terms, they will also recognize the
+guidance to select a fitting ontology term. Once AOP developers realize the utility of Key Event Components and the 
+simplicity of adding ontology terms, they will also recognize the
 enhanced visibility of their AOPs when searched by these terms. Additionally, the broader adoption of
 ontologies in the AOP domain could facilitate the semi-automatic formation of AOP networks and the
-identification of overlapping or redundant Key Event Entries. The next step involves incorporating the
+identification of overlapping or redundant Key Event entries in the AOP-Wiki. The next step involves incorporating the
 recipe into the FAIR Cookbook and referencing it in the AOP-Wiki guidance and help system.
 
 ### Metadata for cell-based assays
