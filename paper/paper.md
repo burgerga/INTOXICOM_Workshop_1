@@ -36,7 +36,7 @@ authors:
   - name: Meike Bunger
     orcid: 0009-0002-7664-0058
     affiliation: 9
-  - name: Gerhard Burger
+  - name: Gerhard&nbsp;Burger
     orcid: 0000-0003-1062-5576
     affiliation: 10
   - name: Tooba&nbsp;Abbassi-Daloii
@@ -51,12 +51,12 @@ authors:
   - name: Riju&nbsp;Roy&nbsp;Chowdhury
     orcid: 0009-0002-4110-241X
     affiliation: 14
-  - name: Tamara Danilyuk
+  - name: Tamara&nbsp;Danilyuk
     orcid: 0000-0001-6125-6147
     affiliation: 10
-  - name: Lucy Sinke
-    orcid:
-    affiliation: 
+  - name: Lucy&nbsp;Sinke
+    orcid: 0000-0002-9209-1266
+    affiliation: 10 
   - name: Egon&nbsp;Willighagen
     orcid: 0000-0001-7542-0286
     affiliation: 1
