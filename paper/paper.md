@@ -181,12 +181,12 @@ FAIRsharing Toxicology Collection. This collection has been an ongoing collabora
 between the ELIXIR Toxicology Community and the FAIRsharing project, recently
 boosted by a FAIRsharing Community Champion project. An interactive questionnaire was used to gather information on the profiles of attendees, the types of data they typically seek, and the databases they commonly use. This allowed for insights into the specific resources and data sources valued by the toxicology community, which led to discussions, helped identify gaps in existing databases and opportunities for the ELXIRI Data Platform and FAIRsharing Toxicology Collection to better support toxicology researchers.  
 
-The main focus of the second day was a hands-on session on developing FAIR Implementation Profiles (FIPs). These FIPs formalize a community practice
-or even standard that guides members of those communities, and possibly even
-outside that community, with minimal expectations and best practices. There is
-a DSWizard-based tool to create FIPs which has been used by the WorldFAIR
+The main focus of the second day was a hands-on session on developing FAIR Implementation Profiles (FIPs). The FIP is a socio-technical approach to drive FAIR convergence by encouraging communities to publicly declare the FAIR Enabling Resources (FERs) [@fer_def] they use to implement the FAIR principles.
+Comparison of FIPs between communities can guide members of those communities to widely used FERs thereby avoiding duplicated efforts and improving interoperability [@Schultes2020].
+A good way to start with FIPs is using the FIP mini questionnaire [@fip_mini], because it allows a quick(er) inventory of resources without having to formally describe those resources as FERs.
+The formal way to create a FIP is with the FIP wizard (<https://fip-wizard.ds-wizard.org/>), a DSWizard-based tool that has been used by the WorldFAIR
 project for ready-for-modelling datasets for nanoinformatics [@citesForInformation:WFFIP1] and
-for datasets [@citesForInformation:WFFIP2].
+for datasets [@citesForInformation:WFFIP2; @Magagna2022].
 
 # Results
 
@@ -290,21 +290,19 @@ validation of functional reproducibility of fluorescent eGFP hiPSC reporter line
 **across collaborative project partners**. It covers nine points, including a reference compound
 set, metadata, imaging settings, raw data deposition, quality control, and more.
 
-## FAIR Implementation profiles
+## FAIR Implementation Profiles
 
-For the FAIR Implementation profiles, we look at the FIP Wizard
-([https://fip-wizard.ds-wizard.org/](https://fip-wizard.ds-wizard.org/), [@Magagna2022]),
-following the choice made by WorldFAIR. During the workshop [@RAa-SA1rYr], two FIPs were
-started. The first FIP was developed for AOPs and the second FIP was developed for 
+For the FAIR Implementation Profiles (FIPs), we first looked at the FIP mini questionnaire. During the workshop [@RAa-SA1rYr], two FIPs were
+started: The first FIP was developed for AOPs and the second FIP was developed for 
 toxiconomics. Generally, filling out the FIP template was not found to be easy
-and both FIPs left a lot of questions open.
+and both FIPs left a lot of questions open. The in-progress FIPs can be accessed at [@citesAsEvidence:Lynch2024c], to be picked up at a later point in time. As part of this FIP Introduction event, also the FIP wizard (<https://fip-wizard.ds-wizard.org/>) was briefly demonstrated, as it gives more context to the different FAIR principles and their corresponding FERs.
 
 ### Adverse Outcome Pathways FIP
 
 The AOP FIP is based on the work done by AOP-Wiki. For example, metadata used
 by the AOP-Wiki include an identifier, a title, a contact point, and a license.
 For the interoperability, ontologies like PROV-O [@Sahoo2013], Cell Ontology [@Diehl2016],
-and UBERION ([https://uberon.github.io/](https://uberon.github.io/)) were discussed.
+and UBERION <https://uberon.github.io/> were discussed.
 
 ### Toxicogenomics FIP
 
@@ -312,10 +310,18 @@ The toxicogenomics FIP derived from experience from the participants. Some proje
 have previously already used resources like BioStudies [@Sarkans2018], ArrayExpress, and 
 the European Nucleotide Archive [@Burgin2023] and matching identifier like
 the BioStudies Accession number, DOI, and ORCID. ISA-Tab [@RoccaSerra2009] is mentioned as
-format, along with the more general CSV, TSV, and JSON. Ddatasets have already been
-indexed by Google Dataset Search and Wikidata. Ontologies that were mentioned
-include the Chemical Entities of Biological Interest [@deMatos2010], Gene Ontology, and 
-Experimental Factor Ontology (EFO) [@Malone2010].
+format, along with the more general CSV, TSV, and JSON. Datasets have already been
+indexed by Google Dataset Search (although it is unclear if this is functional) and Wikidata. 
+Ontologies that were mentioned enclude the Chemical Entities of Biological Interest [@deMatos2010], Gene Ontology, and Experimental Factor Ontology (EFO) [@Malone2010].
+
+### FIP reflection
+
+It is to be expected that when developing a FIP a lot of questions remain open initially. These are typically the more technically/legal oriented questions, especially for the A and R principles, that require more specialized knowledge. In case of the toxicogenomics FIP also other fields (e.g. metadata schema, structured vocabularies, provenance model) stayed relatively empty, this might be for example because templates are not well-defined, or structured vocabularies are not widely used, which in itself is also good to learn (but of course indicates a need to develop those resources). 
+
+It is also helpful to clearly set the scope for the FIP, as it is possible to create a FIP for a community (e.g. the toxicogenomics community), but it's also possible to create a FIP for a resource itself (e.g., the AOP-Wiki, or BioStudies). A limited scope might be easier to get started with (provided you have the resource experts present), and is a great way to assess the FAIRness of that resource!
+
+Finally, it should be noted that creating a FIP typically takes multiple sessions, as resources need to be identified and FERs need to be created, before a machine-readable FIP can be published. However, getting people to think about these choices is already a beneficial result of starting a FIP, even if the FIP is not (yet) finished.
+
 
 <!--
   https://docs.google.com/spreadsheets/d/1Bc7sCERl7FIJxm8wp7wz3vzZdnNaf-6N_8pn_xFMQyM/edit?usp=drive_link
