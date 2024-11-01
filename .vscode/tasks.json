@@ -1,0 +1,39 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "options": {
+        "cwd": "${workspaceRoot}"
+    },
+    "tasks": [
+        {
+            "label": "gen-pdf",
+            "command": "make -C paper",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+              }
+        },
+        {
+            "label": "clean",
+            "command": "make -C paper clean",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+              }
+        },
+        {
+            "label": "refresh", 
+            "command": "${command:latex-workshop.refresh-viewer}" 
+        },
+        {
+            "label": "build", 
+            "dependsOn": ["gen-pdf", "refresh"],
+            "dependsOrder": "sequence",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+              }
+        }
+    ]
+}
